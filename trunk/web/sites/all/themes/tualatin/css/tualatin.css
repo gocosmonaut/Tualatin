@@ -9,9 +9,14 @@ body {
 	font-size:1em;
 	font-weight:400;
 	margin:0px;
-	font-family:Arial, Helvetica, sans-serif;
+border:0px !important;
 
 }
+
+div.container {
+	background:white;
+}
+
 
 .flexslider .slides img {
 	max-width:640px;
@@ -59,18 +64,18 @@ p, ul, li{
  }
  
   h1 {
-	 font-family:'Patua One', Georgia;
-	 font-size:1.1em;
-	 font-weight:400;
+	
+	 font-size:1.8em;
+	
  }
  
  
  h2 {
-	 font-family:'Titillium Web', sans-serif;
+	
 	 font-size:1.4em;
 	 line-height:125%;
-	 font-weight:600;
-	 letter-spacing:0.25px;
+	
+	
  }
  
  
@@ -78,12 +83,16 @@ a:link , a:visited {
 	text-decoration: none;
 }
 
-
+div#footer, div#wrap {
+	border:0px !important;
+}
 
 /* mobile phone vertical and landscape   */
 
 	@media only screen and (max-width: 480px) {
-		
+		div.container {
+	box-shadow:none;
+		}
 	}
 
 	@media only screen and  (min-width: 481px) and (max-width: 979px) {
@@ -92,32 +101,28 @@ a:link , a:visited {
 /* now standard layout */
 
 	@media only screen and (min-width: 980px) {	
+	body {
+		background:#bab4ac url(../../../../default/files/sand.jpg);
+	}
+	div.container {
+	box-shadow:0 0 30px #888;
+	padding:0 1.5% 1% 1.5%;
+	}
+	div.container div#footer div.container {
+		box-shadow:none;
+		width:600px;
+	}
+	div#utility-arrows {
+	 background-image: rgba(235,235,235,1);
+    background-image: -webkit-linear-gradient(top, #d2cfc5 0%,#cbc7bd 100%,#bbbbbb 100%,rgb(238,238,238) 100%);
+    background-image: -moz-linear-gradient(top, #d2cfc5 0%,#cbc7bd 100%,#bbbbbb 100%,rgb(238,238,238) 100%);
+    background-image: -o-linear-gradient(top, #d2cfc5 0%,#cbc7bd 100%,#bbbbbb 100%,rgb(238,238,238) 100%);
+    background-image: linear-gradient(top, #d2cfc5 0%,#cbc7bd 100%,#bbbbbb 100%,rgb(238,238,238) 100%);
 	
-	div#block-block-1 {
-		background:#8b0808 url(../../../../default/files/headline_gradient.jpg) bottom repeat-x;
-		width:590px;
-		padding:15px 25px 25px;
-		float:left;
-		margin:0px 30px 30px 0px;
-	
+	width:300px;
+	height:100px;
 	}
 	
-	div#block-block-1 h1 {
-		color:#f0f0f0;
-		font-size:2.2em;
-		margin:0px;
-		line-height:120%;
-		font-weight:300;
-		letter-spacing:1px;
-	text-shadow: 1px 1px 1px #390404;
+	div#utility-arrows a {
+	color:white;
 	}
-	
-	div#donate a {
-		background:url(../../../../default/files/donate_now.jpg) no-repeat top left;
-		width:252px;
-		height:67px;
-		float:right;
-	}
-		div#donate a:hover {
-			background:url(../../../../default/files/donate_now.jpg) no-repeat bottom left;
-		}
