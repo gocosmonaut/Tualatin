@@ -113,16 +113,16 @@ div#footer, div#wrap {
 		width:600px;
 	}
 	div#utility-arrows {
-	 background-image: rgba(235,235,235,1);
-    background-image: -webkit-linear-gradient(top, #d2cfc5 0%,#cbc7bd 100%,#bbbbbb 100%,rgb(238,238,238) 100%);
-    background-image: -moz-linear-gradient(top, #d2cfc5 0%,#cbc7bd 100%,#bbbbbb 100%,rgb(238,238,238) 100%);
-    background-image: -o-linear-gradient(top, #d2cfc5 0%,#cbc7bd 100%,#bbbbbb 100%,rgb(238,238,238) 100%);
-    background-image: linear-gradient(top, #d2cfc5 0%,#cbc7bd 100%,#bbbbbb 100%,rgb(238,238,238) 100%);
-	
-	width:300px;
-	height:100px;
+	background:url(../../../../default/files/utility_arrow.gif) right no-repeat;
+border-radius: 9px !important;
+    float: right;
+    padding: 0 30px 0 15px;
+	border-radius:6px;
+	height:20px;
 	}
 	
 	div#utility-arrows a {
 	color:white;
+	font-size: 0.75em;
+	vertical-align: top;
 	}
