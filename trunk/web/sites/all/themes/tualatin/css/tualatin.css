@@ -113,16 +113,32 @@ div#footer, div#wrap {
 		width:600px;
 	}
 	div#utility-arrows {
-	background:url(../../../../default/files/utility_arrow.gif) right no-repeat;
+	background:url(../../../../default/files/utility_arrow_off.gif) right no-repeat;
 border-radius: 9px !important;
     float: right;
     padding: 0 30px 0 15px;
 	border-radius:6px;
 	height:20px;
+	margin:0 0 0 16px;
 	}
+	
+	div#utility-arrows:hover {
+	background:url(../../../../default/files/utility_arrow_on.gif) right no-repeat;
+	}
+	
 	
 	div#utility-arrows a {
 	color:white;
 	font-size: 0.75em;
 	vertical-align: top;
+	display:block;
 	}
+	
+	div#block-block-2 { /* address block for contact page */
+	width:25%;
+	float:right;
+	margin:0px 0px 20px 0px;
+	background:#eee;
+	}
+	
+	
