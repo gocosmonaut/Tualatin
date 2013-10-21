@@ -112,6 +112,12 @@ div#footer, div#wrap {
 		box-shadow:none;
 		width:600px;
 	}
+	
+	div#block-block-1 { /* utility */
+	float:right;
+	width:50%;
+	}
+	
 	div#utility-arrows {
 	background:url(../../../../default/files/utility_arrow_off.gif) right no-repeat;
 border-radius: 9px !important;
@@ -134,6 +140,8 @@ border-radius: 9px !important;
 	display:block;
 	}
 	
+	
+	
 	div#block-block-2 { /* address block for contact page */
 	width:25%;
 	float:right;
@@ -141,4 +149,11 @@ border-radius: 9px !important;
 	background:#eee;
 	}
 	
+	
+	form#search-block-form {
+	 float: right;
+    margin-left: 300px;
+    margin-top: 30px;
+	
+	}
 	
