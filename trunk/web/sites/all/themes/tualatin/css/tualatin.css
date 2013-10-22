@@ -106,16 +106,26 @@ div#footer, div#wrap {
 	}
 	div.container {
 	box-shadow:0 0 30px #888;
-	padding:0 1.5% 1% 1.5%;
+	padding:15px 1.5% 1% 1.5%;
 	}
 	div.container div#footer div.container {
 		box-shadow:none;
 		width:600px;
+		padding:0%;
+	}
+	
+	div#header-top {
+		margin-bottom:25px;
+	}
+	
+	div.region.region-header-top-right  {
+		float:right;
+		width:500px;
 	}
 	
 	div#block-block-1 { /* utility */
-	float:right;
-	width:50%;
+	
+
 	}
 	
 	div#utility-arrows {
@@ -153,7 +163,28 @@ border-radius: 9px !important;
 	form#search-block-form {
 	 float: right;
     margin-left: 300px;
-    margin-top: 30px;
+    margin-top: 15px;
 	
 	}
+	
+	input#edit-search-block-form--2 {
+		 background: url("../../../../default/files/search_background.jpg") no-repeat scroll right top transparent;
+    height: 18px;
+    padding-right: 30px;
+    text-align: left;
+    text-indent: 40px;
+    width: 206px;
+	font-size:0.7em;
+	color:#a9a28f;
+	}
+	
+	input#edit-search-block-form--2:focus {
+				 background: url("../../../../default/files/search_background_on.jpg") no-repeat scroll right top  transparent;
+			
+   height: 18px;
+    text-align: left;
+    text-indent: 40px;
+    width: 206px;	 
+	}
+		
 	
