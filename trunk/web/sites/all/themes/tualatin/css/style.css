@@ -10,7 +10,7 @@ a:hover, a:active, a:focus { text-decoration: none; }
 
 #main a { text-decoration: none; }
 
-#main a:hover { text-decoration: underlines; }
+#main a:hover { text-decoration: underline; }
 
 #main h1 a, #main h2 a, #main h3 a, #main h4 a, #main h5 a { text-decoration: none; }	
 
@@ -445,38 +445,19 @@ ol.search-results { padding-left: 0; }
 
 /* Navigation menu*/
 #navigation ul, #navigation ul li,
-#navigation ul.sf-menu, #navigation ul.sf-menu li { float: left; margin: 0; padding: 0;  }
+#navigation ul.sf-menu, #navigation ul.sf-menu li { margin: 0; padding: 0;  }
 
-#navigation ul, #navigation ul.sf-menu { width: 100%;
-border-color: #EAEAEA #F5F5F5 #F5F5F5 #F5F5F5;
--moz-border-radius: 5px 5px 5px 5px; -webkit-border-radius: 5px 5px 5px 5px; border-radius: 5px 5px 5px 5px;
-border-style: solid; border-width: 1px;
-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2); 
-/* IE10 */ 
-background-image: -ms-linear-gradient(top, #fcfcfc 0%, #ececec 100%);
-/* Mozilla Firefox */ 
-background-image: -moz-linear-gradient(top, #fcfcfc 0%, #ececec 100%);
-/* Opera */ 
-background-image: -o-linear-gradient(top, #fcfcfc 0%, #ececec 100%);
-/* Webkit (Safari/Chrome 10) */ 
-background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #fcfcfc), color-stop(1, #ececec));
-/* Webkit (Chrome 11+) */ 
-background-image: -webkit-linear-gradient(top, #fcfcfc 0%, #ececec 100%);
-/* Proposed W3C Markup */ 
-background-image: linear-gradient(top, #fcfcfc 0%, #ececec 100%); 
-/* IE6-9 */ 
-filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#fcfcfc', endColorstr='#ececec'); }
+#navigation ul, #navigation ul.sf-menu { width: 960px; background:url(../../../../default/files/nav_bar.jpg) top no-repeat;}
 	
 #navigation ul li, #navigation ul.sf-menu li { position: relative; list-style:none; border-right: 1px solid #e3e3e3; background:none; }
 
-#navigation ul li a, #navigation ul.sf-menu li a { padding: 15px 25px; text-decoration: none; line-height:120%;
-display: block; font-weight: bold; text-shadow: 1px 1px 0px #fff; outline:none; }
+#navigation ul li a, #navigation ul.sf-menu li a { font-size:1.3em; }
 
 #navigation ul li.expanded a, #navigation ul.sf-menu li.menuparent a { padding-right: 35px; }
 
 #navigation ul li a:hover, #navigation ul.sf-menu li a:hover { position: relative; color: #545454; background-color: #f1f1f1; }
 
-#navigation ul li:hover li a, #navigation ul.sf-menu li li a { color: #595959; font-weight: normal; }
+#navigation ul li:hover li a, #navigation ul.sf-menu li li a {   }
 
 #navigation ul li a.active, #navigation ul.sf-menu li a.active { color: #333333; background-color: #ffffff; text-shadow: 1px 1px 0px #ffffff; }
 
@@ -486,9 +467,9 @@ display: block; font-weight: bold; text-shadow: 1px 1px 0px #fff; outline:none; 
 
 #navigation ul.sf-menu li:hover, #navigation ul li:hover { visibility: inherit; }
 
-#navigation ul.sf-menu li, #navigation ul li  { float: left; position: relative; }
+#navigation ul.sf-menu li, #navigation ul li  { position: relative; padding: 4px 15px 13px; }
 
-#navigation ul.sf-menu a, #navigation ul a { display: block; position: relative; }
+#navigation ul.sf-menu a, #navigation ul a { display: block; position: relative; text-align:center; }
 
 #navigation ul.sf-menu li:hover ul,
 #navigation ul.sf-menu li.sfHover ul,

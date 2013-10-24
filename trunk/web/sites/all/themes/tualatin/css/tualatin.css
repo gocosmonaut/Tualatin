@@ -101,9 +101,17 @@ div#footer, div#wrap {
 /* now standard layout */
 
 	@media only screen and (min-width: 980px) {	
+	
+	
+		
 	body {
 		background:#bab4ac url(../../../../default/files/sand.jpg);
 	}
+	div#wrap {
+		background:url(../../../../default/files/wrap_gradient.png) repeat-x top;
+		
+	}
+	
 	div.container {
 	box-shadow:0 0 30px #888;
 	padding:15px 1.5% 1% 1.5%;
