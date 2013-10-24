@@ -22,26 +22,25 @@ ul.nice-menu li {
   position: relative;
 }
 
+ul.nice-menu li.first {
+  border-left:0px;
+}
+
+ul.nice-menu li.last {
+ background:none !important;
+}
+
 ul.nice-menu a {
   display: block;
-  /*Default to Blue, but override as necessary*/
-  color: #027ac6;
+  color: #822433;
 }
 
-ul.nice-menu ul,
-/* For Garland header. */
-#header-region ul.nice-menu ul {
-  position: absolute;
-  visibility: hidden;
+ul.nice-menu a:hover {
+	color: white; background-color: #aaa28c; color:#666259;
 }
 
-ul.nice-menu li.over ul {
-  visibility: visible;
-}
 
-ul.nice-menu ul li {
-  display: block;
-}
+
 
 ul.nice-menu:after {
   content: ".";
@@ -68,6 +67,7 @@ ul.nice-menu li.menuparent li.menuparent li.menuparent li.over ul,
 #header-region ul.nice-menu li.menuparent li.over ul,
 #header-region ul.nice-menu li.menuparent li.menuparent li.over ul {
   visibility: visible;
+
 }
 
 /* Hide sub-menus initially. */
