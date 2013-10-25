@@ -144,6 +144,18 @@ div#footer, div#wrap {
 
 	}
 	
+		div#block-block-1 div#utility-arrows {
+			float:right;
+		}
+	
+	
+	div#block-block-1 p { /* utility */
+	margin:0px;
+	text-align:right;
+	font-size:.8em;
+
+	}
+	
 	div#utility-arrows {
 	background:url(../../../../default/files/utility_arrow_off.gif) right no-repeat;
 border-radius: 9px !important;

@@ -475,7 +475,7 @@ ol.search-results { padding-left: 0; }
 
 #navigation ul.sf-menu li, #navigation ul li  { position: relative; margin-left:-4px;}
 
-#navigation ul.sf-menu a, #navigation ul a { display: block; position: relative; text-align:center; padding: 7px 14px 6px; }
+#navigation ul.sf-menu a, #navigation ul a { display: block; position: relative; text-align:center; padding: 6px 14px; }
 
 #navigation ul.sf-menu li:hover ul,
 #navigation ul.sf-menu li.sfHover ul,
