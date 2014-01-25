@@ -481,7 +481,58 @@ ol.search-results { padding-left: 0; }
 #navigation ul.sf-menu li.sfHover ul,
 #navigation ul li:hover ul { left: 0; top: 30px; z-index: 999; }
 
+/* DROP DOWN */
 
+ div#navigation div.menu-header ul li ul {
+	margin-top:0px;
+	border:0px;
+box-shadow: 1px 1px 2px #bbb;
+background:#666;
+}
+
+div#navigation div.menu-header ul li ul li {
+	background:none;
+
+}
+
+ div#navigation div.menu-header ul li ul li a {
+background-image: rgba(235,235,235,1);
+    background-image: -webkit-linear-gradient(top, #eeeeee 0%,#dddddd 100%);
+    background-image: -moz-linear-gradient(top, #eeeeee 0%,#dddddd 100%);
+    background-image: -o-linear-gradient(top, #eeeeee 0%,#dddddd 100%);
+    background-image: linear-gradient(top, #eeeeee 0%,#dddddd 100%);
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0px 1px 0px 0px, inset rgba(255,255,255,0.4) 0px 1px 2px 0px;
+	border-bottom:1px solid #ccc;
+	border-top:1px solid #ddd;
+	color:#65625A;
+	padding::5px;
+	text-indent:5px;
+	text-align:left;
+	font-size:1.4em;
+
+}
+
+ div#navigation div.menu-header ul li ul li.first a {
+	border-top:0px;
+	margin-top:6px;
+
+}
+
+ div#navigation div.menu-header ul li ul li.last a {
+	border-bottom:4px double #ccc;
+
+}
+
+ div#navigation div.menu-header ul li ul li a:hover {
+	background-image: rgba(235,235,235,1);
+    background-image: -webkit-linear-gradient(top, #611521 0%,#822434 100%);
+    background-image: -moz-linear-gradient(top, #611521 0%,#822434 100%);
+    background-image: -o-linear-gradient(top, #611521 0%,#822434 100%);
+    background-image: linear-gradient(top, #611521 0%,#822434 100%);
+    -webkit-box-shadow: rgba(0,0,0,0.1) 0px 1px 0px 0px, inset rgba(255,255,255,0.4) 0px 1px 2px 0px;
+	color:white;
+	
+}
 
 #navigation ul.sf-menu li:hover li ul,
 #navigation ul.sf-menu li.sfHover li ul,
@@ -499,14 +550,15 @@ ol.search-results { padding-left: 0; }
 #navigation ul.sf-menu li li li.sfHover ul,
 #navigation  ul li li li:hover ul { left: 230px; top: 0; }
 
+/*
 #navigation ul ul { background:none; filter:none; border:none; box-shadow: none;
 -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; }
-
+*/
 #navigation ul ul li { border:none; }
 
 #navigation ul ul li a, #navigation ul ul li a.active,
 #navigation ul.sf-menu ul li a, #navigation ul.sf-menu ul li a.active {
-background-color: #f0f0f0; border:none; padding: 10px; }
+background-color: #f0f0f0; border:none; /* padding: 10px; */ }
  
 #navigation ul ul li a:hover,
 #navigation ul.sf-menu ul li a:hover,
