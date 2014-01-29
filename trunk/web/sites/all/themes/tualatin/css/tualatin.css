@@ -281,7 +281,16 @@ border-radius: 9px !important;
     width: 206px;	 
 	}
 	
-	/* nice menus */
+	/* COMMUNITY PAGES */
+div.field.field-name-field-community-images img {
+background: none repeat scroll 0 0 white;
+    border-color: #65625A #555555 #555555 #65625A;
+    border-radius: 6px;
+    border-style: solid;
+    border-width: 1px 2px 2px 1px;
+    box-shadow: 2px 2px 4px #CCCCCC;
+    padding: 1%;
+}
 	
 
 	
