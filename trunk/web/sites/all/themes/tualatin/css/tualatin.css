@@ -282,7 +282,7 @@ border-radius: 9px !important;
 	}
 	
 	/* COMMUNITY PAGES */
-div.field.field-name-field-community-images img {
+div.field.field-name-field-community-images img { /* COMMUNITY PAGES */
 background: none repeat scroll 0 0 white;
     border-color: #65625A #555555 #555555 #65625A;
     border-radius: 6px;
@@ -291,6 +291,44 @@ background: none repeat scroll 0 0 white;
     box-shadow: 2px 2px 4px #CCCCCC;
     padding: 1%;
 }
-	
 
 	
+div.field.field-name-field-rent-actual {  /* COMMUNITY PAGES */
+background-image: rgba(235,235,235,1);
+    background-image: -webkit-linear-gradient(top, #611521 0%,#822434 100%);
+    background-image: -moz-linear-gradient(top, #611521 0%,#822434 100%);
+    background-image: -o-linear-gradient(top, #611521 0%,#822434 100%);
+    background-image: linear-gradient(top, #611521 0%,#822434 100%);
+box-shadow: rgba(0,0,0,0.3) 0px 2px 1px 1px, inset rgba(191,127,127,0.5) 0px 1px 2px 1px;
+    border: 1px solid #BBBBBB;
+    border-radius: 9px;
+    float: right;
+    font-size: 19px;
+    margin: 0 0px 20px 0;
+    padding: 0.5% 2% 1%;
+    text-align: center;
+color: white;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+	letter-spacing:1px;
+}
+	body.node-type-communities div.group-right { /* COMMUNITY PAGES */
+		width:inherit;
+	}
+	
+	div.google-map-link /* COMMUNITY PAGES */ {
+	}
+	
+	div.field.field-name-field-combined-address p {
+		font-size: 1.15em;
+    font-weight: 500;
+	}
+
+/* COMMUNITY VIEWS */
+
+div.views-field.views-field-field-amenities li {
+display: inline;
+    list-style-image: none;
+    list-style-type: none;
+}
