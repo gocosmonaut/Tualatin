@@ -290,6 +290,7 @@ background: none repeat scroll 0 0 white;
     border-width: 1px 2px 2px 1px;
     box-shadow: 2px 2px 4px #CCCCCC;
     padding: 1%;
+	margin:0px 0px 8px 0;
 }
 
 	
@@ -316,6 +317,60 @@ color: white;
 	body.node-type-communities div.group-right { /* COMMUNITY PAGES */
 		width:inherit;
 	}
+	
+	div.field.field-name-field-google-map-link a { /* COMMUNITY PAGES */
+	color:#747470;
+	background: url(../../../../default/files/map.png) #747470 center top no-repeat;
+	width:80px;
+	height:25px;
+	display:block;
+	border-radius:6px;
+	
+	text-indent:-9999px;
+	padding:4px 0px 0px;
+	}
+	
+	div.field.field-name-field-google-map-link a:hover { /* COMMUNITY PAGES */
+	color:#96926d ;
+	background:url(../../../../default/files/map.png) #96926d center top no-repeat;
+	cursor:pointer;
+	display:block;
+	}
+	
+	div.field.field-name-field-community-web-site a { /* COMMUNITY PAGES */
+	color:#747470;
+	background: url(../../../../default/files/web.png) #747470 center top no-repeat;
+	width:80px;
+	height:25px;
+	display:block;
+	border-radius:6px;
+	text-indent:-9999px;
+	padding:4px 0px 0px;
+	}
+	
+	div.field.field-name-field-community-web-site {
+	 float: right;
+    margin: -29px 770px 12px 0;
+	}
+	
+	div.field.field-name-field-community-web-site a { /* COMMUNITY PAGES */
+	color:#8c8c79;
+	background: url(../../../../default/files/web.png) #8c8c79 center top no-repeat;
+	width:80px;
+	height:25px;
+	display:block;
+	border-radius:6px;
+	text-indent:-9999px;
+	padding:4px 0px 0px;
+	}
+	
+	div.field.field-name-field-community-web-site  a:hover { /* COMMUNITY PAGES */
+	color:#96926d ;
+	background:url(../../../../default/files/web.png) #96926d  center top no-repeat;
+	cursor:pointer;
+	display:block;
+	}
+		
 	
 	div.google-map-link /* COMMUNITY PAGES */ {
 	}
