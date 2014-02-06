@@ -379,6 +379,12 @@ color: white;
 		font-size: 1.15em;
     font-weight: 500;
 	}
+	
+	div.field.field-name-field-ages {
+		float:right;
+		text-align:right;
+		margin:-10px 0px 12px 0px;
+	}
 
 /* COMMUNITY VIEWS */
 
