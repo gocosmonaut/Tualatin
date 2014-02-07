@@ -19,6 +19,10 @@ div.container {
 	background:white;
 }
 
+div.content {
+	
+}
+
 
 .flexslider .slides img {
 	width:708px;
@@ -282,6 +286,11 @@ border-radius: 9px !important;
 	}
 	
 	/* COMMUNITY PAGES */
+	div.field.field-name-field-community-images {
+		float:right;
+	}
+	
+	
 div.field.field-name-field-community-images img { /* COMMUNITY PAGES */
 background: none repeat scroll 0 0 white;
     border-color: #65625A #555555 #555555 #65625A;
@@ -290,7 +299,7 @@ background: none repeat scroll 0 0 white;
     border-width: 1px 2px 2px 1px;
     box-shadow: 2px 2px 4px #CCCCCC;
     padding: 1%;
-	margin:0px 0px 8px 0;
+	margin:16px 0px 8px 0;
 }
 
 	
@@ -305,17 +314,21 @@ box-shadow: rgba(0,0,0,0.3) 0px 2px 1px 1px, inset rgba(191,127,127,0.5) 0px 1px
     border-radius: 9px;
     float: right;
     font-size: 19px;
-    margin: 0 0px 20px 0;
-    padding: 0.5% 2% 1%;
+    margin: 0 20px 20px 0;
+     padding: 0.25% 2% 0.5%;
     text-align: center;
 color: white;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 300;
     text-align: center;
 	letter-spacing:1px;
 }
 	body.node-type-communities div.group-right { /* COMMUNITY PAGES */
 		width:inherit;
+	}
+	body.node-type-communities div.group-left { /* COMMUNITY PAGES */
+	float: left;
+    width: 82%;
 	}
 	
 	div.field.field-name-field-google-map-link a { /* COMMUNITY PAGES */
@@ -325,7 +338,7 @@ color: white;
 	height:25px;
 	display:block;
 	border-radius:6px;
-	
+	margin:40px 0px 0px 0px;
 	text-indent:-9999px;
 	padding:4px 0px 0px;
 	}
@@ -349,11 +362,11 @@ color: white;
 	}
 	
 	div.field.field-name-field-community-web-site {
-	 float: right;
-    margin: -29px 770px 12px 0;
+	 
+    margin: -29px 770px 12px 90px;
 	}
 	
-	div.field.field-name-field-community-web-site a { /* COMMUNITY PAGES */
+	div.field.field-name-field-community-web-site a:hover { /* COMMUNITY PAGES */
 	color:#8c8c79;
 	background: url(../../../../default/files/web.png) #8c8c79 center top no-repeat;
 	width:80px;
@@ -378,12 +391,15 @@ color: white;
 	div.field.field-name-field-combined-address p {
 		font-size: 1.15em;
     font-weight: 500;
+	float:left;
+	margin-bottom:30px;
 	}
 	
 	div.field.field-name-field-ages {
-		float:right;
-		text-align:right;
-		margin:-10px 0px 12px 0px;
+	float: right;
+    font-size: 1.15em;
+    margin: -36px 4px 12px;
+    text-align: right;
 	}
 
 /* COMMUNITY VIEWS */
@@ -392,4 +408,42 @@ div.views-field.views-field-field-amenities li {
 display: inline;
     list-style-image: none;
     list-style-type: none;
+}
+
+fieldset#node_communities_full_group_management {
+	width:42%;
+	float:left;
+	 height: 100px;
+	  margin-top: 6px;
+	 
+}
+
+fieldset#node_communities_full_group_comm_amenities {
+	float:left;
+	margin-left:2%;
+	width:35%;
+	height: 100px;
+	 margin-top:2px;
+}
+
+fieldset#node_communities_full_group_community_address {
+}
+
+div.field.field-name-body {
+
+}
+
+/* SIDE MENU */
+div#block-menu-block-1 {
+	margin: 0 0 0 2%;
+    width: 16%;
+	float:right;
+}
+
+div#block-menu-block-1 ul {
+	width:100%;
+}
+
+div#block-menu-block-1 ul li{
+	width:100%;
 }
