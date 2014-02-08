@@ -287,7 +287,7 @@ border-radius: 9px !important;
 	
 	/* COMMUNITY PAGES */
 	div.field.field-name-field-community-images {
-		float:right;
+	float:right;
 	}
 	
 	
@@ -299,7 +299,7 @@ background: none repeat scroll 0 0 white;
     border-width: 1px 2px 2px 1px;
     box-shadow: 2px 2px 4px #CCCCCC;
     padding: 1%;
-	margin:16px 0px 8px 0;
+	margin:0px 0px 10px 0;
 }
 
 	
@@ -314,7 +314,7 @@ box-shadow: rgba(0,0,0,0.3) 0px 2px 1px 1px, inset rgba(191,127,127,0.5) 0px 1px
     border-radius: 9px;
     float: right;
     font-size: 19px;
-    margin: 0 20px 20px 0;
+    
      padding: 0.25% 2% 0.5%;
     text-align: center;
 color: white;
@@ -324,11 +324,15 @@ color: white;
 	letter-spacing:1px;
 }
 	body.node-type-communities div.group-right { /* COMMUNITY PAGES */
-		width:inherit;
+		min-width:49% !important;
+		margin-left:1%;
 	}
 	body.node-type-communities div.group-left { /* COMMUNITY PAGES */
-	float: left;
-    width: 82%;
+width:49% !important;
+	}
+	
+	div.field.field-name-field-google-map-link  { /* COMMUNITY PAGES */
+	width:10%
 	}
 	
 	div.field.field-name-field-google-map-link a { /* COMMUNITY PAGES */
@@ -338,7 +342,7 @@ color: white;
 	height:25px;
 	display:block;
 	border-radius:6px;
-	margin:40px 0px 0px 0px;
+	margin:12px 0px 10px 0px;
 	text-indent:-9999px;
 	padding:4px 0px 0px;
 	}
@@ -363,7 +367,7 @@ color: white;
 	
 	div.field.field-name-field-community-web-site {
 	 
-    margin: -29px 770px 12px 90px;
+    margin: -39px 770px 12px 90px;
 	}
 	
 	div.field.field-name-field-community-web-site a:hover { /* COMMUNITY PAGES */
@@ -388,18 +392,27 @@ color: white;
 	div.google-map-link /* COMMUNITY PAGES */ {
 	}
 	
+	div.field.field-name-field-combined-address  {
+		width:55%;
+	}
+	
 	div.field.field-name-field-combined-address p {
 		font-size: 1.15em;
     font-weight: 500;
-	float:left;
-	margin-bottom:30px;
+	margin-bottom:12px;
 	}
 	
 	div.field.field-name-field-ages {
-	float: right;
-    font-size: 1.15em;
-    margin: -36px 4px 12px;
+	 float: right;
+    font-size: 1em;
+    margin: 6px 0 0 12px;
+  
     text-align: right;
+	}
+	
+	div.field.field-name-field-ages div {
+	
+    padding: 0px;
 	}
 
 /* COMMUNITY VIEWS */
@@ -411,33 +424,121 @@ display: inline;
 }
 
 fieldset#node_communities_full_group_management {
-	width:42%;
-	float:left;
-	 height: 100px;
-	  margin-top: 6px;
+
+font-size:.9em;
+	 height: 90px;
+	  margin-top: 10px;
 	 
 }
 
 fieldset#node_communities_full_group_comm_amenities {
-	float:left;
-	margin-left:2%;
-	width:35%;
-	height: 100px;
-	 margin-top:2px;
+	
+	width:100%;
+font-size:.9em;
+	height: 90px;
+	 margin-top:10px;
+	 float:right;
 }
 
 fieldset#node_communities_full_group_community_address {
 }
 
 div.field.field-name-body {
+float:left;
+width:48%;
+}
+
+.front div.field.field-name-body {
+width:21%;
+}
+
+div.views-field.views-field-field-community-images {
+	float:right;
 
 }
 
+div.views-field.views-field-field-community-images img {
+	border:1px solid #bbb;
+	border-radius:6px;
+}
+
+
+div.views-field.views-field-field-rent-actual {
+	float:right;
+	
+}
+div.views-field.views-field-field-amenities {
+}
+	
+span.views-label.views-label-field-amenities {
+	
+}
+
+div.views-field.views-field-title a {
+	font-size:1.2em;
+	font-weight:500;
+}
+
+div.view.view-communities.view-id-communities div.views-row {
+	padding:1% 1.5% 4% 2%;
+	border-bottom:1px solid #ddd;
+
+}
+
+div.view.view-communities.view-id-communities div.views-row.views-row-odd {
+	background:#fff;
+}
+
+div.view.view-communities.view-id-communities div.views-row.views-row-even {
+	background:#f0f0f0;
+}
+
+div.view.view-communities.view-id-communities div.views-field-field-combined-address {
+font-weight:500;
+font-size:1.1em;
+}
+
+div.view.view-communities.view-id-communities div.views-field-field-combined-address  p{
+ margin-bottom:10px;
+}
+
+div.view.view-communities.view-id-communities div.views-field-field-amenities,
+div.view.view-communities.view-id-communities div.views-field-field-ages,
+div.view.view-communities.view-id-communities div.views-field-field-rv-spaces {
+	font-size:.9em;
+line-height: 1.15em;
+ padding: 0 0 0.5%;
+ 
+}
+
+div.view.view-communities.view-id-communities div.views-exposed-widget select {
+font-size:.8em;
+	border-radius:0em;
+	line-height:1em;
+}
+
+
+
+div.view.view-communities.view-id-communities div.views-exposed-widget label {
+font-size:.8em;
+	font-weight:400;
+}
+
+div#edit-field-rv-spaces-tid-wrapper {
+	
+}
+select#edit-field-rv-spaces-tid {
+	width:50%;
+}
+
+
+
 /* SIDE MENU */
 div#block-menu-block-1 {
-	margin: 0 0 0 2%;
+	margin: 0 2% 0 0%;
     width: 16%;
-	float:right;
+	float:left;
+	background:#eee;
 }
 
 div#block-menu-block-1 ul {
