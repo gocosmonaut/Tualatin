@@ -13,6 +13,9 @@ border:0px !important;
 
 }
 
+a {
+}
+
 
 
 div.container {
@@ -482,12 +485,17 @@ div.views-field.views-field-title a {
 div.view.view-communities.view-id-communities div.views-row {
 	padding:1% 1.5% 4% 2%;
 	border-bottom:1px solid #ddd;
+}
 
+div.view.view-communities.view-id-communities div.views-row.views-row-odd:hover,
+div.view.view-communities.view-id-communities div.views-row.views-row-even:hover  {
+	background:#B1AB99;
 }
 
 div.view.view-communities.view-id-communities div.views-row.views-row-odd {
 	background:#fff;
 }
+
 
 div.view.view-communities.view-id-communities div.views-row.views-row-even {
 	background:#f0f0f0;
