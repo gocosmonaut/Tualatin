@@ -519,6 +519,15 @@ line-height: 1.15em;
  
 }
 
+div.view.view-communities.view-id-communities div.views-field-body {
+	font-size:1em;
+line-height: 1em;
+ padding: 1% 0 0 1.5%;
+ font-family:serif;
+ font-style:italic;
+}
+ 
+
 div.view.view-communities.view-id-communities div.views-exposed-widget select {
 font-size:.8em;
 	border-radius:0em;
