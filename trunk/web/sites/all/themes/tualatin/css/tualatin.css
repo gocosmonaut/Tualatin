@@ -252,11 +252,25 @@ border-radius: 9px !important;
 	
 	
 	
-	div#block-block-2 { /* address block for contact page */
-	width:25%;
-	float:right;
-	margin:0px 0px 20px 0px;
-	background:#eee;
+	div#block-block-4 { /* address block for contact page */
+	background: none repeat scroll 0 0 #EEEEEE;
+    float: right;
+    margin: 0 0 20px 20px;
+    padding: 1% 1.5%;
+    width: 25%;
+	}
+	
+		
+	div#block-block-4 h3 { /* address block for contact page */
+
+	
+	background: none repeat scroll 0 0 #822433;
+    color: white;
+    line-height: 120%;
+    margin-bottom: 8px;
+    padding: 2% 1%;
+    text-align: center;
+	
 	}
 	
 	
@@ -446,7 +460,7 @@ font-size:.9em;
 fieldset#node_communities_full_group_community_address {
 }
 
-div.field.field-name-body {
+div.node-communities div.field.field-name-body {
 float:left;
 width:48%;
 }
@@ -565,3 +579,32 @@ div#block-menu-block-1 ul {
 div#block-menu-block-1 ul li{
 	width:100%;
 }
+
+/* CONTACT FORM */
+
+input.form-text, textarea.form-textarea, select.form-select { border: 1px solid #666259; background:#e9e8e3;
+    border-radius: 12px 12px 12px 12px;
+    font-size: 1.25em;
+    padding: 1%; 
+	color:#666259;}
+	
+	div#webform-component-message, textarea#edit-submitted-message,
+	div#webform-component-message div.form-textarea-wrapper,
+	div#webform-component-message  div.grippie  {
+		width:85%;
+	}
+		textarea#edit-submitted-message {
+		font-family:sans-serif;
+	}
+	
+	form#webform-client-form-8  input.form-text, form#webform-client-form-8  textarea.form-textarea, form#webform-client-form-8  select.form-select{
+	border-radius: 6px;
+    box-shadow: 1px 1px 1px #999999;
+    color: #666259;
+    font-size: 1em;
+    padding: 1%;
+	}
+	
+	form#webform-client-form-8 label {
+		padding-bottom:6px;
+	}

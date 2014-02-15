@@ -290,17 +290,13 @@ fieldset .fieldset-description { margin-top: 5px; margin-bottom: 1em; line-heigh
 
 input { margin: 2px 0; padding: 4px; }
 
-input, textarea {  font-size: 0.929em; }
+input, textarea {  font-size: 1.1em; }
 
 textarea { line-height: 1.5; }
 
 textarea.form-textarea, select.form-select { padding: 4px; }
 
-input.form-text, textarea.form-textarea, select.form-select { border: 1px solid #666259; background:#e9e8e3;
-    border-radius: 12px 12px 12px 12px;
-    font-size: 1.25em;
-    padding: 1%; 
-	color:#666259;}
+
 
 .password-suggestions ul li { margin-left: 1.2em; }
 
@@ -468,6 +464,10 @@ ol.search-results { padding-left: 0; }
 #navigation ul li a.active, #navigation ul.sf-menu li a.active { color: #a08c3d; background:url(../../../../default/files/nav_active_term.jpg) repeat-x top; }
 
 #navigation ul ul { position: absolute; top: -999em; width: 230px; }
+
+li.menu-380 ul li a {
+	width:290px;
+}
 
 #navigation ul.sf-menu ul li, #navigation ul ul li { width: 100%; }
 
