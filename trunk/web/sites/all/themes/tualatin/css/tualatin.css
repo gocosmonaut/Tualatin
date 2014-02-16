@@ -608,3 +608,76 @@ input.form-text, textarea.form-textarea, select.form-select { border: 1px solid 
 	form#webform-client-form-8 label {
 		padding-bottom:6px;
 	}
+	
+	/* MEET THE TEAM */
+	
+	div.team-member  {
+		min-height:270px;
+		border-bottom:1px solid #ccc;
+		padding:10px 0px 0px 0px;
+	}
+	
+	div.team-member h3  {
+	background:#B1AB99;
+	color:white;
+    margin: 0px 0px 8px 175px;
+    padding: 3px 0 3px 10px;
+	}
+	
+	div.team-member img {
+	 float: left;
+    height: auto;
+    margin: 0px 30px 30px 0;
+    width: 160px;
+	}
+/* NEWS */
+
+div#block-views-news-categories-block, /* MEETING MINUTES */
+div#block-views-news-categories-block-1,  /* SAFETY COMMITTEE */
+div#block-views-news-categories-block-2 { /* MANAGER RESOURCES */
+border:1px solid #aaa;
+padding:1% 1.25%;
+width:28%;float:left;
+border-radius:6px;
+background:white;box-shadow:2px 2px 1px #ddd;
+}
+
+div#block-views-news-categories-block div.views-row, /* MEETING MINUTES */
+div#block-views-news-categories-block-1 div.views-row,  /* SAFETY COMMITTEE */
+div#block-views-news-categories-block-2 div.views-row { /* MANAGER RESOURCES */
+padding:.5% .5% .5% 2.5%;
+}
+
+div#block-views-news-categories-block div.views-row.views-row-even, /* MEETING MINUTES */
+div#block-views-news-categories-block-1 div.views-row.views-row-even,  /* SAFETY COMMITTEE */
+div#block-views-news-categories-block-2 div.views-row.views-row-even { /* MANAGER RESOURCES */
+background:#eee;
+}
+
+div#block-views-news-categories-block h2, /* MEETING MINUTES */
+div#block-views-news-categories-block-1 h2,  /* SAFETY COMMITTEE */
+div#block-views-news-categories-block-2 h2 { /* MANAGER RESOURCES */
+font-size:1.15em;
+margin-bottom:6px;
+}
+
+div#block-views-news-categories-block a, /* MEETING MINUTES */
+div#block-views-news-categories-block-1 a,  /* SAFETY COMMITTEE */
+div#block-views-news-categories-block-2 a { /* MANAGER RESOURCES */
+font-size:.85em;
+}
+
+div#block-views-news-categories-block-2 { /* MANAGER RESOURCES */
+margin-right:3%;
+
+}
+
+div#block-views-news-categories-block-1 { /* SAFETY COMMITTEE */
+margin-right:3%;
+}
+
+div#block-views-news-categories-block { /* MEETING MINUTES */
+}
+
+}
+	
