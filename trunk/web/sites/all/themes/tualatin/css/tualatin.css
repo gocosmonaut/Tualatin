@@ -629,6 +629,7 @@ input.form-text, textarea.form-textarea, select.form-select { border: 1px solid 
     height: auto;
     margin: 0px 30px 30px 0;
     width: 160px;
+	border:1px solid #B1AB99;
 	}
 /* NEWS */
 
@@ -641,6 +642,22 @@ width:28%;float:left;
 border-radius:6px;
 background:white;box-shadow:2px 2px 1px #ddd;
 }
+
+div#block-views-news-categories-block img.file-icon, /* MEETING MINUTES */
+div#block-views-news-categories-block-1 img.file-icon,  /* SAFETY COMMITTEE */
+div#block-views-news-categories-block-2 img.file-icon { /* MANAGER RESOURCES */
+display:none;
+}
+
+div#block-views-news-categories-block span.file, /* MEETING MINUTES */
+div#block-views-news-categories-block-1 span.file,  /* SAFETY COMMITTEE */
+div#block-views-news-categories-block-2 span.file { /* MANAGER RESOURCES */
+background:url(../../../../default/files/pdf-icon.png) left no-repeat;
+height:16px;
+width:16px;
+}
+
+
 
 div#block-views-news-categories-block div.views-row, /* MEETING MINUTES */
 div#block-views-news-categories-block-1 div.views-row,  /* SAFETY COMMITTEE */
@@ -665,6 +682,7 @@ div#block-views-news-categories-block a, /* MEETING MINUTES */
 div#block-views-news-categories-block-1 a,  /* SAFETY COMMITTEE */
 div#block-views-news-categories-block-2 a { /* MANAGER RESOURCES */
 font-size:.85em;
+padding-left: 24px;
 }
 
 div#block-views-news-categories-block-2 { /* MANAGER RESOURCES */
