@@ -780,5 +780,17 @@ margin-right:3%;
 div#block-views-news-categories-block { /* MEETING MINUTES */
 }
 
+/* HOME TOUTS */
+
+div.one_third div#block-block-6, div.one_third div#block-block-7 { /* HOME TOUTS */
+	border-radius:0 8px 0 0;
+	border-top:1px solid #ccc;
+	border-right:1px solid #ccc;
+	padding-top:3%;
+
 }
+
+
+div.one_third div#block-block-6 h2, div.one_third div#block-block-7 h2 { /* HOME TOUTS */
 	
+	font-size:1.3em;}
