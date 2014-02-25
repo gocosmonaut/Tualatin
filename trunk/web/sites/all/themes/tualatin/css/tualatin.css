@@ -176,10 +176,112 @@ div#footer, div#wrap {
 	@media only screen and (max-width: 480px) {
 		div.container {
 	box-shadow:none;
+	padding-top:12px;
 		}
+		
+		div#header-top {
+			text-align:center;
+		}
+		
+		div#block-views-home-page-slideshow-block { /* HIDE SLIDESHOW ON PHONE */
+		display:none;
+		}
+		
+		div#block-block-3  {/* UTILITY */
+
+	}
+		
+		
+	/* MEET THE TEAM */
+	
+	div.team-member  {
+		border-bottom:1px solid #ccc;
+		padding:10px 0px 0px 0px;
+	}
+	
+	div.team-member h3  {
+	background: none repeat scroll 0 0 #B1AB99;
+    color: white;
+  
+    font-size: 1em;
+    margin: 0 0 6px;
+    padding: 2px 0 2px 6px;
+    width: 62%;
+	}
+	
+	div.team-member img {
+	 float: right;
+    height: auto;
+    margin: 0px 0px 20px 20px;
+    width: 90px;
+	border:1px solid #B1AB99;
+	}
+	
+	div#block-block-1 p { /* utility */
+	margin:0px;
+	text-align:right;
+	font-size:.8em;
+
+	}
+	
+	div#utility-arrows-login, div#utility-arrows-contact { /* utility */
+	background:url(../../../../default/files/utility_arrow_off.gif) right no-repeat;
+border-radius: 9px !important;
+    float: right;
+    padding: 0 30px 0 15px;
+	border-radius:6px;
+	height:20px;
+	margin:0 0 0 16px;
+	}
+	
+	div#utility-arrows-login:hover, div#utility-arrows-contact:hover  { /* utility */
+	background:url(../../../../default/files/utility_arrow_on.gif) right no-repeat;
+	}
+	
+	
+	div#utility-arrows-login a, div#utility-arrows-contact a{ /* utility */
+	color:white;
+	font-size: 0.75em;
+	vertical-align: top;
+	display:block;
+	}
+	
 	}
 
-	@media only screen and  (min-width: 481px) and (max-width: 979px) {
+	@media only screen and  (min-width: 481px) and (max-width: 979px) { /* TABLET */
+	
+	div#content {
+		width:90%;
+	}
+		
+		/* MEET THE TEAM */
+	
+	div.team-member  {
+		border-bottom:1px solid #ccc;
+		padding:10px 0px 0px 0px;
+		min-height:270px;
+	}
+	
+	div.team-member h3  {
+	background: none repeat scroll 0 0 #B1AB99;
+    color: white;
+  
+    font-size: 1em;
+    margin: 0 0 6px;
+    padding: 2px 0 2px 6px;
+    width: 62%;
+	}
+	
+	div.team-member img {
+	 float: right;
+    height: auto;
+    margin: 0px 0px 20px 20px;
+    width: 125px;
+	border:1px solid #B1AB99;
+	}
+		
+		
+		
 	}
 	
 /* now standard layout */
@@ -279,7 +381,7 @@ padding-top:0px;
 
 	}
 	
-	div#utility-arrows { /* utility */
+	div#utility-arrows-login, div#utility-arrows-contact { /* utility */
 	background:url(../../../../default/files/utility_arrow_off.gif) right no-repeat;
 border-radius: 9px !important;
     float: right;
@@ -289,12 +391,12 @@ border-radius: 9px !important;
 	margin:0 0 0 16px;
 	}
 	
-	div#utility-arrows:hover { /* utility */
+	div#utility-arrows-login:hover, div#utility-arrows-contact:hover  { /* utility */
 	background:url(../../../../default/files/utility_arrow_on.gif) right no-repeat;
 	}
 	
 	
-	div#utility-arrows a { /* utility */
+	div#utility-arrows-login a, div#utility-arrows-contact a{ /* utility */
 	color:white;
 	font-size: 0.75em;
 	vertical-align: top;
@@ -782,15 +884,43 @@ div#block-views-news-categories-block { /* MEETING MINUTES */
 
 /* HOME TOUTS */
 
-div.one_third div#block-block-6, div.one_third div#block-block-7 { /* HOME TOUTS */
+div.one_third div#block-block-6, div.one_third div#block-block-7, div#block-views-news-categories-block-3 { /* HOME TOUTS */
 	border-radius:0 8px 0 0;
 	border-top:1px solid #ccc;
 	border-right:1px solid #ccc;
-	padding-top:3%;
+	padding:3% 0% 0%;
+	height:180px;
 
 }
 
 
-div.one_third div#block-block-6 h2, div.one_third div#block-block-7 h2 { /* HOME TOUTS */
+div.one_third div#block-block-6 h2, div.one_third div#block-block-7 h2, div#block-views-news-categories-block-3 h2 { /* HOME TOUTS */
 	
 	font-size:1.3em;}
+	
+	div.one_third div#block-block-6 p, div.one_third div#block-block-7 p { /* HOME TOUTS */
+	font-size:1em;
+
+}
+
+	div#block-views-news-categories-block-3	 { /* HOME TOUTS - NEWS */
+	padding: 3% 6% 0 0 !important;
+	}
+	
+	div#block-views-news-categories-block-3	div.views-field.views-field-created  { /* HOME TOUTS - NEWS */
+	font-size:.9em;
+	color:#444;
+	}
+	
+	div#block-views-news-categories-block-3 div.views-field.views-field-field-news-category  { /* HOME TOUTS - NEWS */
+	font-size:.8em;
+	color:#666;
+	}
+	
+	
+	
+div#block-views-news-categories-block-3  div.views-row.views-row-first  { /* HOME TOUTS - NEWS */
+ border-bottom: 1px solid #ccc;
+    margin-bottom: 10px;
+    padding-bottom: 3%;
+}
