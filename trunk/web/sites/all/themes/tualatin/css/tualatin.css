@@ -65,26 +65,36 @@ div#flexslider-1.flexslider ul li {
 
 }
 
-
-  
-.flex-control-thumbs {
-position:absolute !important;
+ol.flex-control-thumbs li   {
+	float:none;
 }
 
-.flex-control-thumbs ol {
-	
+ol.flex-control-thumbs   {
+background: none repeat scroll 0 0 black;
+    margin: 0 0 4em 25em;
+    padding: 10px 10px 20px;
+    position: absolute !important;
+}
+
+ol.flex-control-thumbs li img {
+	opacity:1.0;
+}
+
+
+ol.flex-control-thumbs li img.flex-active  {
+	background:red;
 }
 
 img.flex-active {
-	margin-top:-30px;
+	
 }
 
 .flex-control-nav {
-	width:300px !important;
+	
 }
 
 .flex-control-thumbs img {
-	width:80% !important;
+	
 }
 
 div#flexslider-1.flexslider  ol.flex-control-nav.flex-control-paging li  {
@@ -171,25 +181,70 @@ div#footer, div#wrap {
 	line-height:135%;
 }
 
+
+
 /* mobile phone vertical and landscape   */
 
 	@media only screen and (max-width: 480px) {
 		div.container {
 	box-shadow:none;
-	padding-top:12px;
+	padding-top:0px;
+	
+    width: 100%
 		}
 		
+		a#logo img {
+			width:60%;
+			height:auto;
+			min-width:189px;
+			max-width:225px;
+			margin:12px 0px;
+		}
+		
+		div.container div#content{
+width:100%;
+ margin: 110px 0% 0%;
+		}
+		
+		div#main , div#footer{
+			width:94%;
+			margin:0% 3%;
+		}
+			
+	select@mm0 {
+		float:right;
+	}
+	
+		
+		
 		div#header-top {
-			text-align:center;
+		 background: none repeat scroll 0 0 white;
+    border-bottom: 1px solid black;
+    box-shadow: 1px 1px 3px black;
+    float: none;
+    height: auto;
+    position: fixed;
+    text-align: center;
+    width: 100%;
+    z-index: 10;
 		}
 		
 		div#block-views-home-page-slideshow-block { /* HIDE SLIDESHOW ON PHONE */
 		display:none;
 		}
 		
-		div#block-block-3  {/* UTILITY */
-
+		div#block-block-3, div#block-search-form  {/* HIDE UTILITY AND SEARCH */
+display:none;
 	}
+	
+	div.one_half { /* MOBILE HEADER ICON BLOCK */
+display:block;
+}
+
+div#block-block-8 { /* MOBILE HEADER ICON BLOCK */
+	display:block;
+	background:red;
+}
 		
 		
 	/* MEET THE TEAM */
@@ -253,6 +308,8 @@ border-radius: 9px !important;
 	div#content {
 		width:90%;
 	}
+	
+	
 		
 		/* MEET THE TEAM */
 	
@@ -318,6 +375,10 @@ padding-top:0px;
 		padding:0%;
 			
 	}
+	
+		a#logo img {
+			max-width:189px;
+		}
 	
 	div.container div#footer div.container div.one_third /* FOOTER */ {
 	display:none;
@@ -923,4 +984,12 @@ div#block-views-news-categories-block-3  div.views-row.views-row-first  { /* HOM
  border-bottom: 1px solid #ccc;
     margin-bottom: 10px;
     padding-bottom: 3%;
+}
+
+div.one_half { /* MOBILE HEADER ICON BLOCK */
+display:none;
+}
+
+div#block-block-8 { /* MOBILE HEADER ICON BLOCK */
+	display:none;
 }

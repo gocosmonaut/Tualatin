@@ -35,10 +35,12 @@
 .four_fifth,
 .one_sixth,
 .five_sixth {
+	/*
 	position: relative;
 	margin-right: 4%;
 	margin-bottom: 20px;
 	float: left;
+	*/
 }
 
 .last {margin-right:0 !important;}
