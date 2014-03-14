@@ -70,19 +70,29 @@ ol.flex-control-thumbs li   {
 }
 
 ol.flex-control-thumbs   {
-background: none repeat scroll 0 0 black;
-    margin: 0 0 4em 25em;
-    padding: 10px 10px 20px;
+
+ float: right;
+    margin: 0 0 0 0;
+    padding: 10px 0 50px;
     position: absolute !important;
+    text-align: right;
+background:url(../../../../default/files/410x70_40.png) bottom right no-repeat;
 }
 
 ol.flex-control-thumbs li img {
 	opacity:1.0;
+	padding:2px;
+	background:white;
+	border:1px solid #999;
+	box-shadow:1px 1px 2px black;
 }
 
 
 ol.flex-control-thumbs li img.flex-active  {
-	background:red;
+-webkit-filter: grayscale(100%);  
+filter: url("data:image/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\' values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale"); /* Firefox 3.5+ */
+    filter: grayscale(100%);
+	
 }
 
 img.flex-active {
@@ -103,20 +113,16 @@ div#flexslider-1.flexslider  ol.flex-control-nav.flex-control-paging li  {
 }
 
 div#flexslider-1.flexslider  ol.flex-control-nav.flex-control-thumbs li {
-
+width:14%;
 	
 }
 
 div#flexslider-1.flexslider  ol.flex-control-nav.flex-control-thumbs li img {
-
+width:80px;
+height:auto;
 	
 }
 
-html.js body.html div#wrap div.container div#content.sixteen div#main div.region div#block-views-home-page-slideshow-block.block div.content div.view div.view-content div#flexslider-1.flexslider ol.flex-control-nav li img.flex-active {
-
-	
-	
-}
 
 
 
@@ -147,6 +153,7 @@ p, ul, li{
 	
 	 font-size:1.8em;
 	 margin-bottom:20px;
+	 line-height:100%;
 	
  }
  
@@ -192,6 +199,10 @@ div#footer, div#wrap {
 	
     width: 100%
 		}
+		
+		div#sidebar-first {
+		display:none;
+	}
 		
 		a#logo img {
 			width:60%;
@@ -308,7 +319,9 @@ border-radius: 9px !important;
 	div#content {
 		width:90%;
 	}
-	
+	div#sidebar-first {
+		display:none;
+	}
 	
 		
 		/* MEET THE TEAM */
@@ -387,7 +400,7 @@ padding-top:0px;
 	
 	.front div.container div#footer div.container div.one_third /* FOOTER */ {
 	display:block;
-			
+			float:left;
 	}
 	
 	
@@ -810,21 +823,62 @@ select#edit-field-rv-spaces-tid {
 
 
 
-/* SIDE MENU */
-div#block-menu-block-1 {
-	margin: 0 2% 0 0%;
-    width: 16%;
+/* SIDEBAR AND SIDE MENU */
+
+div#sidebar-first {
+	
+	margin-right: 3%;
+    width: 20%;
+	border-right:1px solid #B1AB99;
+	border-bottom:2px solid #B1AB99;
+	border-radius:0px 0px 12px 0px;
+}
+
+
+div.block.block-menu-block {
+	margin: 0 0% 0 0%;
+width:92%;
 	float:left;
-	background:#eee;
+	
 }
 
-div#block-menu-block-1 ul {
-	width:100%;
+div.block.block-menu-block h2 {
+	font-size:1.2em;
+	margin-bottom:6px;
+
 }
 
-div#block-menu-block-1 ul li{
-	width:100%;
+
+
+
+div.block.block-menu-block ul {
+	
 }
+
+div.block.block-menu-block ul li{
+	
+}
+
+div.block.block-menu-block ul li a{
+	background:none;
+	padding:4px 8px 4px 10px;
+	border:0px;
+	font-weight:500;
+	font-size:1.1em;
+}
+
+div.block.block-menu-block ul li a:hover{
+	background:#822433;
+	color:white;
+}
+
+div.block.block-menu-block ul li.active-trail a{
+	background:#B1AB99;
+	color:#494331;
+	border-radius:6px 0px 0px 6px; 
+}
+
+
 
 /* CONTACT FORM */
 
@@ -945,14 +999,34 @@ div#block-views-news-categories-block { /* MEETING MINUTES */
 
 /* HOME TOUTS */
 
+.front div.one_third {
+margin:2% 2% 3% 0%;
+    width: 32%;
+}
+
+.front div.one_third.last {
+	margin-right:0%;
+}
+
 div.one_third div#block-block-6, div.one_third div#block-block-7, div#block-views-news-categories-block-3 { /* HOME TOUTS */
 	border-radius:0 8px 0 0;
 	border-top:1px solid #ccc;
 	border-right:1px solid #ccc;
 	padding:3% 0% 0%;
 	height:180px;
+	
+}
+
+ div.one_third div#block-block-7, div#block-views-news-categories-block-3 { /* HOME TOUTS */
+	margin-left:2%;
 
 }
+
+div#block-views-news-categories-block-3 { /* HOME TOUTS */
+	
+
+}
+
 
 
 div.one_third div#block-block-6 h2, div.one_third div#block-block-7 h2, div#block-views-news-categories-block-3 h2 { /* HOME TOUTS */
@@ -992,4 +1066,16 @@ display:none;
 
 div#block-block-8 { /* MOBILE HEADER ICON BLOCK */
 	display:none;
+}
+
+
+/* SUBPAGE IMAGE FOR GENERIC PAGES */
+
+div.field.field-name-field-image-for-upper-right img {
+	float:right;
+	min-width:200px;
+	max-width:400px;
+	height:auto;
+	margin:0 0 3% 3%;
+	border:1px solid #bbb;
 }

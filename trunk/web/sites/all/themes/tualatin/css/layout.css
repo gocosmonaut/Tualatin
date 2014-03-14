@@ -13,7 +13,7 @@
 .full-width {width:960px; height:auto; overflow:hidden}
 
 .one_half { width: 48%; }
-.one_third { width: 30.66%; }
+/* .one_third { width: 30.66%; } */
 .two_thirds { width: 65.33%; }
 .one_fourth { width: 22%; }
 .three_fourths { width: 74%; }
