@@ -1079,3 +1079,94 @@ div.field.field-name-field-image-for-upper-right img {
 	margin:0 0 3% 3%;
 	border:1px solid #bbb;
 }
+
+/* FORMS FILTERS */
+
+form#views-exposed-form-forms-page div.views-exposed-form  {
+	margin-top:0px;
+}
+
+
+form#views-exposed-form-forms-page div.bef-checkboxes div.form-item{
+	width:35%;
+	float:left;
+}
+
+form#views-exposed-form-forms-page div.bef-checkboxes label.option{
+font-size: 1em;
+    font-weight: 400;
+    padding-left: 8px;
+}
+
+form#views-exposed-form-forms-page div.views-exposed-widgets div.views-exposed-widget{
+	float:right;
+padding:0px;
+margin-bottom:1em;
+}
+
+
+
+form#views-exposed-form-forms-page div.views-exposed-widgets div.views-exposed-widget input#edit-reset {
+	font-size:.9em;
+	padding:.5em;
+	margin-top:0px;
+}
+
+div.views-field.views-field-field-form-pdf  {
+	
+	text-align:center;
+	font-size:.9em;
+}
+
+div.view.view-forms table {
+	
+	border-top:2px solid #666;
+}
+
+
+div.view.view-forms table tr td {
+	vertical-align:top;
+	border-bottom:1px solid #ccc;
+	line-height:120%;
+}
+
+div.view.view-forms table tr td p.pdf-icon {
+	margin:0;
+	padding:0;
+}
+
+
+img.views-img-float {
+	float:right;
+	margin:0px 0px 0px 25px;
+}
+
+
+div.view.view-forms table tr td.col-2, div.view.view-forms table tr td.col-4  {
+	background:#eaeaea url(../../../../default/files/black_gradient_from_bottom.png) bottom repeat-x;
+	border-right:1px solid #aaa;
+}
+
+div.view.view-forms table tr td.col-1, div.view.view-forms table tr td.col-3 {
+	background:#fafafa url(../../../../default/files/black_gradient_from_bottom.png) bottom repeat-x;
+		border-right:1px solid #aaa;
+}
+
+div.view.view-forms table tr td.col-1:hover, div.view.view-forms table tr td.col-2:hover ,
+div.view.view-forms table tr td.col-3:hover, div.view.view-forms table tr td.col-4:hover {
+
+	
+}
+
+div.view.view-forms table tr td.col-1 a, div.view.view-forms table tr td.col-2 a,
+div.view.view-forms table tr td.col-3 a, div.view.view-forms table tr td.col-4 a {
+	
+
+	
+}
+
+div.view.view-forms table tr td.col-1 a:hover, div.view.view-forms table tr td.col-2 a:hover,
+div.view.view-forms table tr td.col-3 a:hover, div.view.view-forms table tr td.col-4 a:hover {
+
+
+}
