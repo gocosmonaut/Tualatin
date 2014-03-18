@@ -463,13 +463,14 @@ ol.search-results { padding-left: 0; }
 
 #navigation ul li a.active, #navigation ul.sf-menu li a.active { color: #a08c3d; background:url(../../../../default/files/nav_active_term.jpg) repeat-x top; }
 
+
 #navigation ul ul { position: absolute; top: -999em; width: 230px; }
 
 li.menu-380 ul li a {
 	width:290px;
 }
 
-#navigation ul.sf-menu ul li, #navigation ul ul li { width: 100%; }
+#navigation ul.sf-menu ul li, #navigation ul ul li { width: 115%; }
 
 #navigation ul.sf-menu li:hover, #navigation ul li:hover {  background: #aaa28c; color:#666259;}
 
