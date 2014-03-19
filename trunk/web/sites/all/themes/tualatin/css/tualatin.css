@@ -1144,6 +1144,34 @@ div.view.view-forms table tr td.col-3 a:hover, div.view.view-forms table tr td.c
 
 }
 
+/* FORMS BLOCK */
+
+div#block-views-forms-block-1 h2 {
+	font-size:1.1em;
+}
+
+div#block-views-forms-block-1 p {
+	margin-bottom:0px;
+}
+
+div#block-views-forms-block-1 div.views-field.views-field-field-form-pdf {
+	text-align:left;
+	
+}
+
+div#block-views-forms-block-1 div.views-row.views-row {
+	padding:8px 6px;
+	
+}
+
+div#block-views-forms-block-1 div.views-row.views-row-even {
+	background:#f0f0f0;border-bottom: 1px solid #DDDDDD;
+}
+
+div#block-views-forms-block-1 div.views-field.views-field-field-form-pdf a {
+	line-height:100%;
+}
+
 /* communities gallery */
 
 div#block-views-communities-block-1.block  {
