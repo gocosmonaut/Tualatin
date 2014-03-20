@@ -193,6 +193,12 @@ div#footer, div#wrap {
 /* mobile phone vertical and landscape   */
 
 	@media only screen and (max-width: 480px) {
+	
+	h1#page-title {
+		font-size:1.4em;
+		margin:10px 0px;
+	}
+	
 	div#wrap	div.container {
 	box-shadow:none;
 	margin: 1% 5%;
@@ -205,7 +211,7 @@ div#footer, div#wrap {
 			margin:0px;
 		}
 		
-			div#wrap div.container div#footer div.container div.one_third {
+		.front	div#wrap div.container div#footer div.container div.one_third {
 		 border: 1px solid gray;
     border-radius: 8px;
     margin-bottom: 15px;
@@ -249,6 +255,7 @@ div#footer, div#wrap {
 	select#mm0.mnav {
 		font-size:1em;
 		width:100%;
+		margin:12px 0px;
 	}
 		
 		div#block-block-1 { /* utility */
@@ -335,7 +342,11 @@ width:100%;
 		}
 			
 	select@mm0 {
-		float:right;
+	
+	}
+	
+	div#footer{
+		padding-top:0px;
 	}
 	
 		
@@ -370,7 +381,58 @@ div#block-block-8 { /* MOBILE HEADER ICON BLOCK */
 	display:block;
 	background:red;
 }
-		
+
+/* SUBPAGE IMAGE FOR GENERIC PAGES */
+
+div.field.field-name-field-image-for-upper-right img {
+	float:right;
+	width:30%;
+	min-width:110px;
+	max-width:240px;
+	height:auto;
+	margin:0 0 3% 3%;
+	border:1px solid #bbb;
+}
+
+
+/* footer */
+
+div#footer div.container div#block-block-5  {
+border-top:1px solid gray;padding:10px 0px 0px;
+}
+div#block-block-5 p {
+	text-align:center;
+}
+
+div#block-block-5 p a {
+	padding:0px 3px;
+}
+
+div#block-block-5 p.copyright, div#block-block-5 p.abstract   {
+	font-size:.8em;
+}
+
+div#block-block-5 p.abstract   {
+	margin-bottom:0px;
+}
+
+
+div#block-block-5 p.copyright a, div#block-block-5 p.abstract a   {
+	padding:0px;
+}
+
+form#webform-client-form-8 div input, form#webform-client-form-8 div select, form#webform-client-form-8 div textarea {
+	width:100%;
+	 border-radius: 6px;
+    box-shadow: 1px 1px 1px #999999;
+    color: #666259;
+    font-size: 1em;
+    padding: 1%;
+	 background: none repeat scroll 0 0 #E9E8E3;
+    border: 1px solid #666259;
+}
+
+
 		
 	/* MEET THE TEAM */
 	
@@ -397,6 +459,82 @@ div#block-block-8 { /* MOBILE HEADER ICON BLOCK */
 	border:1px solid #B1AB99;
 	}
 	 
+	 
+	 	/* WANT MORE INFO BLOCK */
+	
+	div#block-block-9 {
+		width:95%;
+		border-radius:9px;
+		background:#f8eba5 url(../../../../default/files/40_white_from_top.png) repeat-x;
+		padding:3%;
+		border:1px solid #777;
+		box-shadow:1px 1px 2px #888;
+	}
+	
+	div#block-block-9 img {
+		display:none;
+	}
+	
+	div#block-block-9 h2 {
+	font-size:1.1em;
+	color:#333;
+	margin-bottom:4px;
+	}
+	
+		div#block-block-9 p {
+	font-size:.8em;
+	margin-bottom:0px;
+	}
+	
+	div#block-block-9 div.want-more-contact {
+	background-image: -moz-linear-gradient(center top , #611521 0%, #822434 100%);
+    border: 1px solid #444;
+    border-radius: 9px;
+    box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.3), 0 1px 2px 1px rgba(191, 127, 127, 0.5) inset;
+    color: white;
+    float: right;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+    text-align: center;
+	margin:3% 0% 3% 3%;
+	}
+	
+	div#block-block-9  p a {
+	color:#777;
+
+	}
+	
+	div#block-block-9  p a:hover {
+	text-decoration:none;
+
+	}
+	
+	div#block-block-9 div.want-more-contact p a {
+	color:white;
+
+	}
+	
+	
+	div#block-block-9 div.want-more-contact  a {
+	color:white;
+	display:block;
+	    padding:2% 10%;
+		    border-radius: 9px;
+	}
+	
+	div#block-block-9 div.want-more-contact a:hover {
+		text-decoration:none;background:#bf2a43;
+	
+	}
+	
+	div#block-block-9 div.want-more-contact:hover {
+	
+
+	}
+	
+	
 	
 	
 	}
@@ -778,7 +916,9 @@ background: none repeat scroll 0 0 white;
 }
 
 	
-div.field.field-name-field-rent-actual {  /* COMMUNITY PAGES */
+div.field.field-name-field-rent-actual,
+div.field.field-name-field-price-actual
+ {  /* COMMUNITY AND HOME SALES PAGES */
 background-image: rgba(235,235,235,1);
     background-image: -webkit-linear-gradient(top, #611521 0%,#822434 100%);
     background-image: -moz-linear-gradient(top, #611521 0%,#822434 100%);
@@ -890,14 +1030,14 @@ width:49% !important;
     padding: 0px;
 	}
 
-/* COMMUNITY VIEWS */
+/* COMMUNITY AND HOMES FOR SALE VIEWS */
 
 div.views-field.views-field-field-amenities li {
 display: inline;
     list-style-image: none;
     list-style-type: none;
 }
-
+fieldset#node_homes_for_sale_full_group_sales_contact,
 fieldset#node_communities_full_group_management {
 
 font-size:.9em;
@@ -906,6 +1046,18 @@ font-size:.9em;
 	 
 }
 
+div.field.field-name-field-community {
+	float: left;
+    width: 100%;
+}
+
+fieldset#node_homes_for_sale_full_group_comm_information {
+
+font-size:.9em;
+	 height: auto;
+	  margin-top: 10px;
+	 
+}
 fieldset#node_communities_full_group_comm_amenities {
 	
 	width:100%;
@@ -913,6 +1065,15 @@ font-size:.9em;
 	height: 90px;
 	 margin-top:10px;
 	 float:right;
+}
+fieldset#node_homes_for_sale_full_group_home_features,
+fieldset#node_homes_for_sale_full_group_home_amenities {
+	
+	
+font-size:.9em;
+	height: auto;
+	 
+	
 }
 
 fieldset#node_communities_full_group_community_address {
@@ -1447,4 +1608,8 @@ div.view.view-home-page-slideshow {
 	padding:0px;
 	float:right;
 	margin:0px 0px 0px 30px;
+}
+/* HOME SLIDESHOW STATIC  */
+div#block-views-marquee-static-block-block {
+	display:none;
 }
