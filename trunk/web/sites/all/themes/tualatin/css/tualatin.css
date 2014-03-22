@@ -534,6 +534,11 @@ form#webform-client-form-8 div input, form#webform-client-form-8 div select, for
 
 	}
 	
+	/* SEARCH RESULTS */
+	
+	div.form-item.form-type-textfield.form-item-keys input#edit-keys {
+		width:94%;
+	}
 	
 	
 	
@@ -593,6 +598,7 @@ div.view.view-home-page-slideshow {
     width: 125px;
 	border:1px solid #B1AB99;
 	}
+		
 		
 		
 		
