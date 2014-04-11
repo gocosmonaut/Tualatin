@@ -476,7 +476,7 @@ li.menu-380 ul li a {
 
 #navigation ul.sf-menu li, #navigation ul li  { position: relative; margin-left:-4px;}
 
-#navigation ul.sf-menu a, #navigation ul a { display: block; position: relative; text-align:center; padding: 6px 14px; }
+#navigation ul.sf-menu a, #navigation ul a { display: block; position: relative; text-align:center; padding: 6px 14px 7px; }
 
 #navigation ul.sf-menu li:hover ul,
 #navigation ul.sf-menu li.sfHover ul,

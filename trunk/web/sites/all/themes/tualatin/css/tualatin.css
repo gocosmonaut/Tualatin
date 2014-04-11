@@ -856,7 +856,16 @@ margin-right:3%;
 div#block-views-news-categories-block { /* MEETING MINUTES */
 }
 
+
+div.view.view-marquee-static-block img {
+	border-radius:6px;
 	
+	}
+	
+		div.group-left, div.group-right,
+		body.node-type-homes-for-sale  div.group-left {
+			width:100%;
+		}
 	}
 
 	@media only screen and  (min-width: 481px) and (max-width: 979px) { /* TABLET */
@@ -896,7 +905,8 @@ padding-top:0px;
 	
 		/* COMMUNITY AND HOMES FOR SALE VIEWS */
 		
-		div.group-left, div.group-right {
+		div.group-left, div.group-right,
+		body.node-type-homes-for-sale  div.group-left {
 			width:100%;
 		}
 
@@ -949,10 +959,15 @@ fieldset#node_communities_full_group_community_address {
 div.node-communities div.field.field-name-body {
 float:left;
 width:100%;
+
+}
+
+div#priority-arrow-container {
+	text-align:center;
 }
 
 .front div.field.field-name-body {
-
+margin-top:18px;
 }
 
 div.views-field.views-field-field-community-images {
@@ -1060,6 +1075,21 @@ div#edit-field-rv-spaces-tid-wrapper {
 select#edit-field-rv-spaces-tid {
 	width:50%;
 }
+div.field.field-name-field-community-web-site {
+margin: -39px 0px 12px 90px;
+	}
+	
+div.field.field-name-field-community-web-site a {
+background: url("../../../../default/files/web.png") no-repeat scroll center top #747470;
+    border-radius: 8px;
+    color: #747470;
+    display: block;
+    height: 25px;
+    padding: 4px 0 0;
+    text-indent: -9999px;
+    width: 80px;
+	float:left;
+}
 	
 	
 		/* COMMUNITY PAGES */
@@ -1151,15 +1181,21 @@ div#block-views-home-page-slideshow-block {
 	text-align:center;
 }
 
+div.views-field.views-field-field-slider-image {
+	border-radius:9px;
+}
+
 div.view.view-home-page-slideshow {
-	padding:0px;
-	float:none;
-	margin:0px 3% 0px 3%;
-	width:94%
+	float: none;
+    margin: 0%;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
 }
 
 .front div#content {
-		width:100%;
+		width:96%;
+		margin:0px 2%;
 	}
 	
 	div#content {
@@ -1346,7 +1382,7 @@ border-radius: 9px !important;
     padding: 0 30px 0 15px;
 	border-radius:6px;
 	height:23px;
-	margin:0 0 6px 0px;
+	margin:0 10px 6px 0;
 	}
 	
 		div.priority-arrows:hover { /* INTRO LINKS */
@@ -1420,8 +1456,9 @@ text-decoration:none;
 	/* HOME TOUTS */
 
 .front div.one_third {
-margin:2% 2% 3% 0%;
-    width: 32%;
+float: left;
+    margin: 2% 1.5% 3%;
+    width: 30%;
 }
 
 .front div.one_third.last {
@@ -1696,20 +1733,16 @@ div#block-views-communities-block-1.block div.views-field.views-field-field-goog
 
 
 .flexslider .slides img {
-	width:708px;
+	width:100%;
 	height:auto;
 } 
 
-div.view.view-home-page-slideshow {
-	padding:0px;
 
-	margin:0px;
-}
 
 div#flexslider-1.flexslider {
 background: none repeat scroll 0 0 #FFFFFF;
     border: 0px;
-    border-radius: 0px;
+    border-radius: 8px;
     box-shadow: none;
 	padding:0px;
     margin: 0 0 0px;
@@ -1717,10 +1750,11 @@ background: none repeat scroll 0 0 #FFFFFF;
 	overflow:hidden;
 	width:708px;
 	z-index:1;
+	margin:0px auto;
 }
 
 div#flexslider-1.flexslider div.views-field.views-field-field-slider-image img {
-	border-radius:10px;
+	border-radius:0px;
 
 }
 
@@ -2014,10 +2048,33 @@ div#block-views-news-categories-block { /* MEETING MINUTES */
 	div#sidebar-first {
 		display:none;
 	}
-	
-	
-	
+	ol.flex-control-thumbs {
+	 background: url("../../../../default/files/410x70_40.png") no-repeat scroll center bottom transparent;
+    float: left;
+    margin: 0;
+    padding: 10px 0 50px;
+    position: absolute !important;
+    text-align: center;
+}
+
+div#flexslider-1.flexslider ol.flex-control-nav.flex-control-thumbs li {
+    width: 12%;
+
 	}
+	
+div#flexslider-1.flexslider	ol.flex-control-thumbs {
+	
+	background: url("../../../../default/files/410x70_40.png") no-repeat scroll left bottom transparent;
+    float: left;
+    margin: 0 auto;
+    padding: 10px 0 50px 12px;
+    position: absolute !important;
+    text-align: left;
+}
+	div#flexslider-1.flexslider ol.flex-control-nav.flex-control-thumbs li img {
+    height: auto;
+    width: 65px;
+	}}
 		
 		@media only screen and (min-width: 761px) {	
 	
@@ -2030,15 +2087,15 @@ div#block-views-news-categories-block { /* MEETING MINUTES */
     margin-right: 2%;
     width: 73%;
 	}
+	/*
 	
 	body.no-sidebars div#wrap div#content {
 		width:96%;
 		margin:0px 2%;
 	
-	}
+	}*/
 	
-	
-	
+		}
 
 
 /* now standard layout */
@@ -2054,6 +2111,12 @@ div#block-views-news-categories-block { /* MEETING MINUTES */
 		background:url(../../../../default/files/wrap_gradient.png) repeat-x top;
 		
 	}
+	
+	.front body.no-sidebars div#wrap div#content {
+		width:98%;
+		margin:0px 1%;
+	}
+	
 	.front p {
 	font-size: 0.85em;
     line-height: 1.4em;
@@ -2075,6 +2138,12 @@ padding-top:0px;
 		padding:0%;
 			
 	}
+	
+	.front body.no-sidebars div#wrap div.content {
+    margin: 0% 1%;
+    width: 98%;
+
+		}
 	
 	body.one-sidebar div#wrap div#content {
 		width:75%;
