@@ -89,6 +89,7 @@ div#footer, div#wrap {
 	line-height:135%;
 }
 
+input.form-text, textarea.form-textarea, select.form-select { border: 1px solid #666259; background:#e9e8e3; color:#666259; }
 
 
 /* mobile phone vertical and landscape   */
@@ -575,10 +576,11 @@ div.views-field.views-field-field-community-images {
 }
 
 div.views-field.views-field-field-community-images img {
-	border:1px solid #bbb;
-	border-radius:4px;
-
-	width:90%;
+	border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    float: right;
+    margin: 2% 0 3% 2%;
+    width: 65%;
 	
 }
 
@@ -2086,6 +2088,56 @@ margin-right:3%;
 div#block-views-news-categories-block { /* MEETING MINUTES */
 }
 
+/* communities exposed filters */
+
+div.view.view-communities div.view-filters div.views-exposed-form {
+	background:#eee;
+	width:98%;
+	border-radius:9px;
+	padding:0%;
+	border:1px solid #B1AB99;
+	margin:0% 1% 3%;
+}
+
+div.view.view-communities.view-id-communities div.views-exposed-widget select {
+font-size:1em;
+	border-radius:0em;
+	line-height:1.1em;
+	width:100%;
+}
+
+div.view.view-communities.view-id-communities div.views-exposed-widget label {
+font-weight:600;
+padding:4px 0px;
+}
+
+div.view.view-communities.view-id-communities div.views-submit-button {
+	display:none;
+}
+
+div.view.view-communities.view-id-communities div.views-reset-button  {
+	width:100% !important;
+	float:none;
+	text-align:center;
+}
+
+div.view.view-communities.view-id-communities div.views-reset-button  input#edit-reset {
+	margin:1% 8% 1% 0%;
+}
+
+div.view.view-communities div.view-filters div.views-exposed-form div.views-exposed-widget {
+	
+	width:40%;
+	float:left;
+	margin:0% 1% 0% 2.25%;
+}
+
+div.view.view-communities div.view-filters div.views-exposed-form div.views-exposed-widget div.views-widget  div label.option {
+	
+font-weight:400;
+	float:none;
+}
+
 	}
 	
 	@media only screen and (max-width: 760px) {	
@@ -2120,7 +2172,59 @@ div#flexslider-1.flexslider	ol.flex-control-thumbs {
 	div#flexslider-1.flexslider ol.flex-control-nav.flex-control-thumbs li img {
     height: auto;
     width: 65px;
-	}}
+	}
+	
+	/* communities exposed filters */
+
+div.view.view-communities div.view-filters div.views-exposed-form {
+	background:#eee;
+	width:96%;
+	border-radius:9px;
+	padding:0% 1%;
+	border:1px solid #B1AB99;
+	margin:0% 1% 3%;
+}
+
+div.view.view-communities.view-id-communities div.views-exposed-widget select {
+font-size:.9em;
+	border-radius:0em;
+	line-height:1.1em;
+	width:92%;
+}
+
+div.view.view-communities.view-id-communities div.views-exposed-widget label {
+font-weight:600;
+padding:4px 0px;
+}
+
+div.view.view-communities.view-id-communities div.views-submit-button {
+	display:none;
+}
+
+div.view.view-communities.view-id-communities div.views-reset-button  {
+	width:100% !important;
+	float:none;
+	text-align:center;
+}
+
+div.view.view-communities.view-id-communities div.views-reset-button  input#edit-reset {
+	margin:1% 8% 1% 0%;
+}
+
+div.view.view-communities div.view-filters div.views-exposed-form div.views-exposed-widget {
+	
+	width:100%;
+	float:left;
+	margin:0% 1% 0% 2.25%;
+}
+
+div.view.view-communities div.view-filters div.views-exposed-form div.views-exposed-widget div.views-widget  div label.option {
+	
+font-weight:400;
+	float:none;
+}
+	
+	}
 		
 		@media only screen and (min-width: 761px) {	
 	
@@ -2692,6 +2796,8 @@ div.views-field.views-field-title a {
 	font-weight:500;
 }
 
+
+
 div.view.view-communities.view-id-communities div.views-row {
 	padding:1% 1.5% 4% 2%;
 	border-bottom:1px solid #ddd;
@@ -2747,7 +2853,9 @@ line-height: 1em;
 }
  
 
-
+div.views-field.views-field-field-price-actual  {
+	float:right;
+}
 
 
 /* SIDEBAR AND SIDE MENU */
@@ -3293,67 +3401,49 @@ margin: 0 1% 3%;
 /* communities exposed filters */
 
 div.view.view-communities div.view-filters div.views-exposed-form {
-	background:#bbb;
-	width:96%;
+	background:#eee;
+	width:98%;
 	border-radius:9px;
-	padding:2%;
+	padding:0%;
+	border:1px solid #B1AB99;
+	margin:0% 1% 3%;
 }
 
 div.view.view-communities.view-id-communities div.views-exposed-widget select {
 font-size:1em;
 	border-radius:0em;
 	line-height:1.1em;
-	width:94%;
+	width:100%;
 }
 
-
-
 div.view.view-communities.view-id-communities div.views-exposed-widget label {
+font-weight:600;
+padding:4px 0px;
+}
 
+div.view.view-communities.view-id-communities div.views-submit-button {
+	display:none;
+}
+
+div.view.view-communities.view-id-communities div.views-reset-button  {
+	width:100% !important;
+	float:none;
+	text-align:center;
+}
+
+div.view.view-communities.view-id-communities div.views-reset-button  input#edit-reset {
+	margin:1% 8% 1% 0%;
 }
 
 div.view.view-communities div.view-filters div.views-exposed-form div.views-exposed-widget {
-	border:1px solid black;
-	width:96%;
-	float:left;
 	
-}
-
-div.view.view-communities div.view-filters div.views-exposed-form  div#edit-field-community-tid-wrapper div
-{ 
-	
-}
-
-div#edit-field-city-tid-wrapper {
-	width:42%;
-}
-
-div#edit-field-monthly-space-rent-tid-wrapper {
-	width:25%;
+	width:44%;
 	float:left;
+	margin:0% 1% 0% 2.25%;
 }
-
-div#edit-field-community-tid-wrapper,
-div#edit-field-ages-tid-wrapper {
-	width:50%;
-	float:right;
-}
-
-div.view.view-communities div.view-filters div.views-exposed-form div.views-exposed-widget div.views-widget  div
-{
-
-}
-
 
 div.view.view-communities div.view-filters div.views-exposed-form div.views-exposed-widget div.views-widget  div label.option {
 	
-
+font-weight:400;
 	float:none;
-}
-
-div#edit-field-rv-spaces-tid-wrapper {
-	
-}
-select#edit-field-rv-spaces-tid {
-	width:50%;
 }
