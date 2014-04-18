@@ -1093,6 +1093,10 @@ line-height: 1.25em;
  
 } 
 
+div.views-field.views-field-field-price-actual  {
+	float:right;
+}
+
 div.view.view-communities.view-id-communities div.views-field-body {
 	font-size:1em;
 line-height: 1em;
@@ -2223,6 +2227,10 @@ div.view.view-communities div.view-filters div.views-exposed-form div.views-expo
 font-weight:400;
 	float:none;
 }
+
+div.views-field.views-field-field-price-actual  {
+	float:right;
+}
 	
 	}
 		
@@ -2584,7 +2592,7 @@ background: none repeat scroll 0 0 white;
 	
 div.field.field-name-field-rent-actual,
 div.field.field-name-field-price-actual
- {  /* COMMUNITY AND HOME SALES PAGES */
+ {  /* COMMUNITY AND HOME SALES AND APARTMENTS PAGES */
 background-image: rgba(235,235,235,1);
     background-image: -webkit-linear-gradient(top, #611521 0%,#822434 100%);
     background-image: -moz-linear-gradient(top, #611521 0%,#822434 100%);
