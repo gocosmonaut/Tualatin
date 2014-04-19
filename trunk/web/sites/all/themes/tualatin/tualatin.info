@@ -10,6 +10,8 @@ stylesheets[all][] = css/layout.css
 stylesheets[all][] = css/tualatin.css
 stylesheets[all][] = color/colors.css
 
+stylesheets-conditional[lte IE 8][all][]  = css/ie8.css
+
 regions[header] = Header
 regions[header_top_left] = Header top left
 regions[header_top_right] = Header top right

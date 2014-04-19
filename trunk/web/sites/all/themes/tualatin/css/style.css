@@ -16,6 +16,8 @@ a:hover, a:active, a:focus { text-decoration: none;  color:#822433; }
 
 h1, h2, h3, h4, h5, h6 { letter-spacing: 0.25px; margin:0; font-family: 'Roboto Condensed', sans-serif;  font-weight:500; }
 
+
+select, option { font-family: 'Roboto', sans-serif; font-weight:500;  letter-spacing:0.5px; }
 /* h1 { font-size:35px; font-weight:normal; font-style:normal; line-height: 140%; margin-bottom: 14px; }
 
 h2 { font-size:28px; font-weight:normal; font-style:normal; line-height: 130%; margin-bottom: 10px; }
@@ -288,7 +290,7 @@ fieldset .fieldset-wrapper { padding: 0 10px; }
 
 fieldset .fieldset-description { margin-top: 5px; margin-bottom: 1em; line-height: 1.4; font-style: italic; }
 
-input { margin: 2px 0; padding: 4px; }
+input { margin: 2px 0 2px 6px; padding: 4px; }
 
 input, textarea {  font-size: 1.1em; }
 
@@ -502,7 +504,7 @@ background-image: rgba(235,235,235,1);
     background-image: -moz-linear-gradient(top, #eeeeee 0%,#dddddd 100%);
     background-image: -o-linear-gradient(top, #eeeeee 0%,#dddddd 100%);
     background-image: linear-gradient(top, #eeeeee 0%,#dddddd 100%);
-    -webkit-box-shadow: rgba(0,0,0,0.1) 0px 1px 0px 0px, inset rgba(255,255,255,0.4) 0px 1px 2px 0px;
+   box-shadow:2px 2px 3px #bbb;
 	border-bottom:1px solid #ccc;
 	border-top:1px solid #ddd;
 	color:#65625A;

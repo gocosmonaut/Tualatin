@@ -106,11 +106,11 @@ php_value memory_limit 2048M
   # VirtualDocumentRoot and the rewrite rules are not working properly.
   # For example if your site is at http://example.com/drupal uncomment and
   # modify the following line:
-  # RewriteBase /
+   RewriteBase /
   #
   # If your site is running in a VirtualDocumentRoot at http://example.com/,
   # uncomment the following line:
-  # RewriteBase /
+  # RewriteBase /cwres
 
   # Pass all requests not referring directly to files in the filesystem to
   # index.php. Clean URLs are handled in drupal_environment_initialize().

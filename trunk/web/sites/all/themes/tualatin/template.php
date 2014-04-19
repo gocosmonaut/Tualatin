@@ -3,7 +3,7 @@
  * Implements hook_html_head_alter().
  * This will overwrite the default meta character type tag with HTML5 version.
  */
-function skeletontheme_html_head_alter(&$head_elements) {
+function tualatin_html_head_alter(&$head_elements) {
   $head_elements['system_meta_content_type']['#attributes'] = array(
     'charset' => 'utf-8'
   );
@@ -12,7 +12,7 @@ function skeletontheme_html_head_alter(&$head_elements) {
 /**
  * Override or insert variables into the page template for HTML output.
  */
-function skeletontheme_process_html(&$variables) {
+function tualatin_process_html(&$variables) {
   // Hook into color.module.
   if (module_exists('color')) {
     _color_html_alter($variables);
@@ -22,7 +22,7 @@ function skeletontheme_process_html(&$variables) {
 /**
  * Override or insert variables into the page template.
  */
-function skeletontheme_process_page(&$variables) {
+function tualatin_process_page(&$variables) {
   // Always print the site name and slogan, but if they are toggled off, we'll
   // just hide them visually.
   $variables['hide_site_name']   = theme_get_setting('toggle_name') ? FALSE : TRUE;
@@ -52,7 +52,7 @@ function skeletontheme_process_page(&$variables) {
   }
 }
 
-function skeletontheme_page_alter($page) {
+function tualatin_page_alter($page) {
 
 		$mobileoptimized = array(
 			'#type' => 'html_tag',
@@ -87,7 +87,7 @@ function skeletontheme_page_alter($page) {
 		
 }
 
-function skeletontheme_breadcrumb($variables) {
+function tualatin_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
   if (!empty($breadcrumb)) {
     // Use CSS to hide titile .element-invisible.
@@ -104,7 +104,7 @@ function skeletontheme_breadcrumb($variables) {
  */
 if (theme_get_setting('responsive_menu_state')) {
 
-	drupal_add_js(drupal_get_path('theme', 'skeletontheme') .'/js/jquery.mobilemenu.js');
+	drupal_add_js(drupal_get_path('theme', 'tualatin') .'/js/jquery.mobilemenu.js');
 
 	$responsive_menu_switchwidth=theme_get_setting('responsive_menu_switchwidth');
 	$responsive_menu_topoptiontext=theme_get_setting('responsive_menu_topoptiontext');
