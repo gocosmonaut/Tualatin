@@ -408,7 +408,7 @@ form#webform-client-form-8 div input, form#webform-client-form-8 div select, for
 	}
 	
 	div#block-block-9 div.want-more-contact {
-	background-image: -moz-linear-gradient(center top , #611521 0%, #822434 100%);
+	background:#822434;
     border: 1px solid #444;
     border-radius: 9px;
     box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.3), 0 1px 2px 1px rgba(191, 127, 127, 0.5) inset;
@@ -416,7 +416,7 @@ form#webform-client-form-8 div input, form#webform-client-form-8 div select, for
     float: right;
     font-size: 18px;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
 
     text-align: center;
 	margin:3% 0% 3% 3%;
@@ -985,7 +985,7 @@ fieldset#node_homes_for_sale_full_group_comm_information {
 
 font-size:.9em;
 	 height: auto;
-	  margin-top: 10px;
+	  margin-top: 24px;
 	 
 }
 fieldset#node_communities_full_group_comm_amenities {
@@ -1274,7 +1274,7 @@ div.view.view-home-page-slideshow {
 	height: auto;
     max-width: 200px;
     min-width: 100px;
-    width: 35%;
+    width: 33%;
 	}
 	
 		
@@ -1339,7 +1339,7 @@ div#block-views-marquee-static-block-block {
 	}
 	
 	div#block-block-9 div.want-more-contact {
-	background-image: -moz-linear-gradient(center top , #611521 0%, #822434 100%);
+		background:#822434;
     border: 1px solid #444;
     border-radius: 9px;
     box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.3), 0 1px 2px 1px rgba(191, 127, 127, 0.5) inset;
@@ -1394,7 +1394,7 @@ div#block-views-marquee-static-block-block {
 	
 	div.region.region-header-top-right  {
 		float:right;
-		width:270px;
+		width:255px;
 	}
 	
 	div#block-block-1 { /* utility */
@@ -1468,26 +1468,7 @@ text-decoration:none;
 	
 	}
 	
-	div#block-block-4 { /* address block for contact page */
-	background: none repeat scroll 0 0 #EEEEEE;
-    float: right;
-    margin: 0 0 20px 20px;
-    padding: 1% 1.5%;
-    width: 25%;
-	}
 	
-		
-	div#block-block-4 h3 { /* address block for contact page */
-
-	
-	background: none repeat scroll 0 0 #822433;
-    color: white;
-    line-height: 120%;
-    margin-bottom: 8px;
-    padding: 2% 1%;
-    text-align: center;
-	
-	}
 	
 	
 	form#search-block-form {
@@ -1524,6 +1505,7 @@ text-decoration:none;
 float: left;
     margin: 2% 1.5% 3%;
     width: 30%;
+	height: 185px;
 }
 
 .front div.one_third.last {
@@ -1535,7 +1517,7 @@ div.one_third div#block-block-6, div.one_third div#block-block-7, div#block-view
 	border-top:1px solid #ccc;
 	border-right:1px solid #ccc;
 	padding:3% 0% 0%;
-	height:180px;
+	
 	
 }
 
@@ -1560,6 +1542,8 @@ div.one_third div#block-block-6 h2, div.one_third div#block-block-7 h2, div#bloc
 
 }
 
+
+
 	div#block-views-news-categories-block-3	 { /* HOME TOUTS - NEWS */
 	padding: 3% 6% 0 0 !important;
 	}
@@ -1574,6 +1558,22 @@ div.one_third div#block-block-6 h2, div.one_third div#block-block-7 h2, div#bloc
 	color:#666;
 	}
 	
+		div#block-views-news-categories-block-3 div.views-field.views-field-field-news-document  { /* HOME TOUTS - NEWS */
+	line-height:110%;
+	
+	}
+	
+	div#block-views-news-categories-block-3 div.views-field.views-field-field-news-document span.file a  { /* HOME TOUTS - NEWS */
+	font-size:.8em;
+	
+	
+	}
+	
+	div#block-views-news-categories-block-3 div.views-field.views-field-field-news-document span.file img  { /* HOME TOUTS - NEWS */
+	float:left;
+	margin:0px 8px 10px 0px;
+	
+	}
 	
 	
 div#block-views-news-categories-block-3  div.views-row.views-row-first  { /* HOME TOUTS - NEWS */
@@ -1894,19 +1894,13 @@ height:auto;
 }
 div#navigation { 
 
-    border: 1px solid rgba(198,198,198,1);
+    border: 0px;
 margin: 0 .5% 2.5%;
     width: 99%;
-    border-radius: 6px;
-    background-image: rgba(235,235,235,1);
-    background-image: -webkit-linear-gradient(top, #f2f3ee 0%,#eeefea 47%,#e9e5e2 100%);
-    background-image: -moz-linear-gradient(top, #f2f3ee 0%,#eeefea 47%,#e9e5e2 100%);
-    background-image: -o-linear-gradient(top, #f2f3ee 0%,#eeefea 47%,#e9e5e2 100%);
-    background-image: linear-gradient(top, #f2f3ee 0%,#eeefea 47%,#e9e5e2 100%);
-    -webkit-box-shadow: rgba(0,0,0,0.3) 0px 1px 1px 1px;
-    -moz-box-shadow: rgba(0,0,0,0.3) 0px 1px 1px 1px;
-    box-shadow: rgba(0,0,0,0.3) 0px 1px 1px 1px;
-	height:30px;
+    border-radius: 0px;
+    background:white;
+    box-shadow: 0px;
+
 }
 #navigation ul.sf-menu a, #navigation ul a { display: block; position: relative; text-align:center; padding: 3px 8px; height:24px;}
 #navigation ul li a, #navigation ul.sf-menu li a { font-size:1.1em; margin:0px;  }
@@ -1977,7 +1971,7 @@ select#mm0.mnav {
 	}
 	
 	div#block-block-9 div.want-more-contact {
-	background-image: -moz-linear-gradient(center top , #611521 0%, #822434 100%);
+	background:#822434;
     border: 1px solid #444;
     border-radius: 9px;
     box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.3), 0 1px 2px 1px rgba(191, 127, 127, 0.5) inset;
@@ -1985,7 +1979,7 @@ select#mm0.mnav {
     float: right;
     font-size: 1em;
     font-weight: 300;
-    letter-spacing: 1px;
+    letter-spacing: .5px;
 
     text-align: center;
 	margin-left:2%;
@@ -2263,19 +2257,128 @@ font-weight:400;
 div.views-field.views-field-field-price-actual  {
 	float:right;
 }
+
+div#block-block-4 { /* address block for contact page */
+	background: none repeat scroll 0 0 #EEEEEE;
+    float: left;
+    margin: 10px 0px;
+    padding: 3%;
+    width: 94%;
+	}
+	
+		
+	div#block-block-4 h3 { /* address block for contact page */
+
+	
+	background: none repeat scroll 0 0 #822433;
+    color: white;
+    line-height: 120%;
+    margin-bottom: 8px;
+    padding: 2% 1%;
+    text-align: center;
+	
+	}
+	
+	div#block-block-4 img { /* address block for contact page */
+
+	
+	width:100%;
+	
+	}
+	
+	form#webform-client-form-8 div input, form#webform-client-form-8 div select, form#webform-client-form-8 div textarea {
+	width:96%;
+	 border-radius: 6px;
+    box-shadow: 1px 1px 1px #999999;
+    color: #666259;
+    font-size: 1em;
+    padding: 1%;
+	 background: none repeat scroll 0 0 #E9E8E3;
+    border: 1px solid #666259;
+}
+
+
+	
+	
 	
 	}
 		
 		@media only screen and (min-width: 761px) {	
 	
 	
+div#navigation { 
 
+    border: 1px solid rgba(198,198,198,1);
+margin: 0 .5% 2.5%;
+    width: 99%;
+    border-radius: 6px;
+    background-image: rgba(235,235,235,1);
+    background-image: -webkit-linear-gradient(top, #f2f3ee 0%,#eeefea 47%,#e9e5e2 100%);
+    background-image: -moz-linear-gradient(top, #f2f3ee 0%,#eeefea 47%,#e9e5e2 100%);
+    background-image: -o-linear-gradient(top, #f2f3ee 0%,#eeefea 47%,#e9e5e2 100%);
+    background-image: linear-gradient(top, #f2f3ee 0%,#eeefea 47%,#e9e5e2 100%);
+    -webkit-box-shadow: rgba(0,0,0,0.3) 0px 1px 1px 1px;
+    -moz-box-shadow: rgba(0,0,0,0.3) 0px 1px 1px 1px;
+    box-shadow: rgba(0,0,0,0.3) 0px 1px 1px 1px;
+	height:30px;
+}
 	
 	body.one-sidebar  div#wrap div#content {
 	    float: left;
     margin-left: 0;
     margin-right: 2%;
     width: 73%;
+	}
+	
+	
+	div#block-block-4 { /* address block for contact page */
+	background: none repeat scroll 0 0 #EEEEEE;
+    float: right;
+    margin: 0 0 20px 20px;
+    padding: 1% 1.5%;
+    width: 25%;
+	}
+	
+		
+	div#block-block-4 h3 { /* address block for contact page */
+
+	
+	background: none repeat scroll 0 0 #822433;
+    color: white;
+    line-height: 120%;
+    margin-bottom: 8px;
+    padding: 2% 1%;
+    text-align: center;
+	
+	}
+	
+	/* CONTACT FORM */
+
+input.form-text, textarea.form-textarea, select.form-select { border: 1px solid #666259; background:#e9e8e3;
+    border-radius: 12px 12px 12px 12px;
+    font-size: 1.25em;
+    padding: 1%; 
+	color:#666259;}
+	
+	div#webform-component-message, textarea#edit-submitted-message,
+	div#webform-component-message div.form-textarea-wrapper,
+	div#webform-component-message  div.grippie  {
+		width:85%;
+	}
+		textarea#edit-submitted-message {
+		font-family:sans-serif;
+	}
+	
+	form#webform-client-form-8  input.form-text, form#webform-client-form-8  textarea.form-textarea, form#webform-client-form-8  select.form-select{
+	border-radius: 6px;
+    box-shadow: 1px 1px 1px #999999;
+    color: #666259;
+    font-size: 1em;
+    padding: 1%;
+	}
+	
+	form#webform-client-form-8 label {
+		padding-bottom:6px;
 	}
 	/*
 	
@@ -2426,15 +2529,18 @@ font-size:1em;
 	}
 	
 	div#block-block-9 div.want-more-contact {
-	background-image: -moz-linear-gradient(center top , #611521 0%, #822434 100%);
+		background:#822434;
+	
     border: 1px solid #444;
     border-radius: 9px;
     box-shadow: 0 2px 1px 1px rgba(0, 0, 0, 0.3), 0 1px 2px 1px rgba(191, 127, 127, 0.5) inset;
     color: white;
     float: right;
     font-size: 20px;
+	 font-size: 16px\0;
     font-weight: 300;
     letter-spacing: 1px;
+	 letter-spacing: .5px\0;
 
     text-align: center;
 	margin-left:2%;
@@ -2555,26 +2661,6 @@ text-decoration:none;
 	
 	
 	
-	div#block-block-4 { /* address block for contact page */
-	background: none repeat scroll 0 0 #EEEEEE;
-    float: right;
-    margin: 0 0 20px 20px;
-    padding: 1% 1.5%;
-    width: 25%;
-	}
-	
-		
-	div#block-block-4 h3 { /* address block for contact page */
-
-	
-	background: none repeat scroll 0 0 #822433;
-    color: white;
-    line-height: 120%;
-    margin-bottom: 8px;
-    padding: 2% 1%;
-    text-align: center;
-	
-	}
 	
 	
 	form#search-block-form {
@@ -3079,6 +3165,7 @@ div#block-views-news-categories-block { /* MEETING MINUTES */
 .front div.one_third {
 margin:2% 2% 3% 0%;
     width: 32%;
+	min-height:100px;
 }
 
 .front div.one_third.last {
@@ -3429,6 +3516,7 @@ div#navigation {
 margin: 0 1% 3%;
     width: 98%;
     border-radius: 6px;
+	background:#F2F3EE\9;
     background-image: rgba(235,235,235,1);
     background-image: -webkit-linear-gradient(top, #f2f3ee 0%,#eeefea 47%,#e9e5e2 100%);
     background-image: -moz-linear-gradient(top, #f2f3ee 0%,#eeefea 47%,#e9e5e2 100%);
