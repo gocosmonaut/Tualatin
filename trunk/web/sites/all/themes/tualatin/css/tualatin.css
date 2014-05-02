@@ -103,6 +103,27 @@ input.form-text, textarea.form-textarea, select.form-select { border: 1px solid 
 			
 	}
 	
+	body.logged-in p.news-register {
+		display:none;
+	}
+	
+	/* hide sidebar on news and resources page */
+	
+	body.page-node-1434 div#sidebar-first {
+	display:none;
+	}
+	
+	body.page-node-1434 div#wrap div#content {
+		width:100% !important;
+	}
+	
+	body.logged-in  div.one_third div#block-block-11 {
+		display:none;
+	}
+	
+	body.not-logged-in div#block-views-news-categories-block, 	body.not-logged-in div#block-views-news-categories-block-1,  	body.not-logged-in div#block-views-news-categories-block-2 {
+		display:none;
+	}
 
 
 /* mobile phone vertical and landscape   */
@@ -1512,7 +1533,7 @@ float: left;
 	margin-right:0%;
 }
 
-div.one_third div#block-block-6, div.one_third div#block-block-7, div#block-views-news-categories-block-3 { /* HOME TOUTS */
+div.one_third div#block-block-6, div.one_third div#block-block-7, div.one_third div#block-block-11, div#block-views-news-categories-block-3 { /* HOME TOUTS */
 	border-radius:0 8px 0 0;
 	border-top:1px solid #ccc;
 	border-right:1px solid #ccc;
@@ -1521,7 +1542,7 @@ div.one_third div#block-block-6, div.one_third div#block-block-7, div#block-view
 	
 }
 
- div.one_third div#block-block-7, div#block-views-news-categories-block-3 { /* HOME TOUTS */
+ div.one_third div#block-block-7, div#block-views-news-categories-block-3, div.one_third div#block-block-11 { /* HOME TOUTS */
 	margin-left:2%;
 
 }
@@ -1533,11 +1554,11 @@ div#block-views-news-categories-block-3 { /* HOME TOUTS */
 
 
 
-div.one_third div#block-block-6 h2, div.one_third div#block-block-7 h2, div#block-views-news-categories-block-3 h2 { /* HOME TOUTS */
+div.one_third div#block-block-6 h2, div.one_third div#block-block-7 h2, div.one_third div#block-block-11 h2, div#block-views-news-categories-block-3 h2 { /* HOME TOUTS */
 	
 	font-size:1.3em;}
 	
-	div.one_third div#block-block-6 p, div.one_third div#block-block-7 p { /* HOME TOUTS */
+	div.one_third div#block-block-6 p, div.one_third div#block-block-7 p, div.one_third div#block-block-11 p { /* HOME TOUTS */
 	font-size:1em;
 
 }
@@ -2387,7 +2408,27 @@ input.form-text, textarea.form-textarea, select.form-select { border: 1px solid 
 		margin:0px 2%;
 	
 	}*/
-	
+	div#block-block-10 { /* SALES MANAGERS */
+width:100%;
+font-size:.9em;
+line-height:135%;
+}
+
+div#block-block-10  p { /* SALES MANAGERS */
+width:98%;
+margin:0%;
+}
+
+div#block-block-10  img { /* SALES MANAGERS */
+margin:8% 10% 5% 0%;
+}
+
+div#block-block-10  img.chs_logo { /* SALES MANAGERS */
+width:90%;
+float:none;
+margin:0% 0% 5% 0%;
+}
+
 		}
 
 
@@ -3172,7 +3213,7 @@ margin:2% 2% 3% 0%;
 	margin-right:0%;
 }
 
-div.one_third div#block-block-6, div.one_third div#block-block-7, div#block-views-news-categories-block-3 { /* HOME TOUTS */
+div.one_third div#block-block-6, div.one_third div#block-block-7, div.one_third div#block-block-11, div#block-views-news-categories-block-3 { /* HOME TOUTS */
 	border-radius:0 8px 0 0;
 	border-top:1px solid #ccc;
 	border-right:1px solid #ccc;
@@ -3181,7 +3222,7 @@ div.one_third div#block-block-6, div.one_third div#block-block-7, div#block-view
 	
 }
 
- div.one_third div#block-block-7, div#block-views-news-categories-block-3 { /* HOME TOUTS */
+ div.one_third div#block-block-7, div#block-views-news-categories-block-3, div.one_third div#block-block-11{ /* HOME TOUTS */
 	margin-left:2%;
 
 }
@@ -3193,7 +3234,7 @@ div#block-views-news-categories-block-3 { /* HOME TOUTS */
 
 
 
-div.one_third div#block-block-6 h2, div.one_third div#block-block-7 h2, div#block-views-news-categories-block-3 h2 { /* HOME TOUTS */
+div.one_third div#block-block-6 h2, div.one_third div#block-block-7 h2, div.one_third div#block-block-11 h2, div#block-views-news-categories-block-3 h2 { /* HOME TOUTS */
 	
 	font-size:1.3em;}
 	
@@ -3583,3 +3624,26 @@ font-weight:400;
 	background:none;
 	color:#666;
 }
+
+div#block-block-10 { /* SALES MANAGERS */
+width:100%;
+font-size:.9em;
+line-height:135%;
+}
+
+div#block-block-10  p { /* SALES MANAGERS */
+width:98%;
+margin:0%;
+}
+
+div#block-block-10  img { /* SALES MANAGERS */
+margin:8% 10% 5% 0%;
+}
+
+div#block-block-10  img.chs_logo { /* SALES MANAGERS */
+width:90%;
+float:none;
+margin:0% 0% 5% 0%;
+}
+
+
