@@ -42,7 +42,9 @@ font: 12px/24px Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida
 
 hr { border: solid #DDD; clear: both; margin: 10px 0 30px; height: 0; border-width: 1px 0 0; }
 
-.field-type-taxonomy-term-reference .field-item { float: left; padding: 0 1em 0 0; white-space: nowrap; }
+.field-type-taxonomy-term-reference .field-item { float: left; padding: 0 .5em 0 .5em; white-space: nowrap; }
+
+.field-type-taxonomy-term-reference .field-item.odd { border-right:1px solid #ddd; border-left:1px solid #ddd;}
 
 /* Responsive Images */
 
@@ -177,7 +179,14 @@ ul.contextual-links { font-size: 0.923em; }
 
 ul.menu li {  margin: 0; }
 
-.region-content ul, .region-content ol { margin: 1em 0; padding: 0 0 0.25em 2.5em; }
+.region-content ul, .region-content ol { margin: 1em 0; padding: 0 0 0.25em 1.25em;  list-style:none;}
+
+.region-content li { line-height:150%; font-size:.95em; color:##424240; }
+
+.region-content li:before { content: "•  ";
+    color: red; font-size:1.5em; vertical-align:middle;}
+	
+	div#flexslider-1 ul  li:before, div#flexslider-1 li:before {list-style:none;  content: "";}
 
 .item-list ul li { margin: 0; padding: 0.2em 0.5em 0 0;  }
 
@@ -472,7 +481,7 @@ li.menu-380 ul li a {
 	width:290px;
 }
 
-#navigation ul.sf-menu ul li, #navigation ul ul li { width: 115%; }
+#navigation ul.sf-menu ul li, #navigation ul ul li { width: 135%; }
 
 #navigation ul.sf-menu li:hover, #navigation ul li:hover {  background: #aaa28c; color:#666259;}
 

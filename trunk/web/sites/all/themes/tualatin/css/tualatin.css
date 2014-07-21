@@ -116,7 +116,7 @@ input.form-text, textarea.form-textarea, select.form-select { border: 1px solid 
 	body.page-node-1434 div#wrap div#content {
 		width:100% !important;
 	}
-	
+	/*
 	body.logged-in  div.one_third div#block-block-11 {
 		display:none;
 	}
@@ -355,6 +355,11 @@ div#block-block-5 p.copyright, div#block-block-5 p.abstract   {
 
 div#block-block-5 p.abstract   {
 	margin-bottom:0px;
+}
+
+div#block-block-5 h2.abstract   {
+	margin-top:6px;
+	text-align:center;
 }
 
 
@@ -1945,6 +1950,12 @@ div#block-block-5 p.copyright, div#block-block-5 p.abstract   {
 	font-size:.8em;
 }
 
+div#block-block-5 h2.abstract   {
+	margin-top:6px;
+	text-align:center;
+}
+
+
 div#block-block-5 p.abstract   {
 	margin-bottom:0px;
 }
@@ -2064,7 +2075,7 @@ div#block-views-news-categories-block-1,  /* SAFETY COMMITTEE */
 div#block-views-news-categories-block-2 { /* MANAGER RESOURCES */
 border:1px solid #aaa;
 padding:1% 1.25%;
-width:28%;float:left;
+width:45%;float:left;
 border-radius:6px;
 background:white;box-shadow:2px 2px 1px #ddd; margin-bottom: 20px;
 }
@@ -2533,6 +2544,8 @@ padding-top:0px;
 	margin:12px auto 0px;
 	font-size:.8em;
 	}
+	
+	
 	
 	div#block-block-5 p.abstract a { /* FOOTER */
 	padding:0px;
@@ -3142,7 +3155,7 @@ div#block-views-news-categories-block-1,  /* SAFETY COMMITTEE */
 div#block-views-news-categories-block-2 { /* MANAGER RESOURCES */
 border:1px solid #aaa;
 padding:1% 1.25%;
-width:28%;float:left;
+width:45%;float:left;
 border-radius:6px;
 background:white;box-shadow:2px 2px 1px #ddd; margin-bottom: 20px;
 }
