@@ -45,6 +45,12 @@ p, ul, li{
  line-height:1.5em;
  
  }
+ 
+ p.mission {
+	 text-align:center;
+	 font-size:1.1em;
+	 font-weight:600;
+ }
 
  .front h1#page-title {
 	 display:none;
@@ -116,6 +122,8 @@ input.form-text, textarea.form-textarea, select.form-select { border: 1px solid 
 	body.page-node-1434 div#wrap div#content {
 		width:100% !important;
 	}
+	
+
 	/*
 	body.logged-in  div.one_third div#block-block-11 {
 		display:none;
@@ -382,27 +390,47 @@ form#webform-client-form-8 div input, form#webform-client-form-8 div select, for
 		
 	/* MEET THE TEAM */
 	
-	div.team-member  {
-		border-bottom:1px solid #ccc;
-		padding:10px 0px 0px 0px;
+	
+	div.view-id-team_members  {
+	
+		
 	}
 	
-	div.team-member h3  {
-	background: none repeat scroll 0 0 #B1AB99;
-    color: white;
-  
-    font-size: 1em;
-    margin: 0 0 6px;
-    padding: 2px 0 2px 6px;
-    width: 62%;
+		div.view-id-team_members h2  {
+	
+		margin:0px;
 	}
 	
-	div.team-member img {
+	div.view-id-team_members h3 {
+		margin:0px 0px 12px 0px;
+	
+	}
+	div.view-id-team_members div.views-row {
+	min-height:300px;
+	padding:2% 2% 4% 3%;
+	margin-top:12px;
+	
+	}
+	
+	div.view-id-team_members div.views-row-odd {
+	background:#f2f2f2;
+	
+	}
+	
+	div.view-id-team_members div.views-row-first {
+	margin:0px;
+	
+	}
+	
+div.view-id-team_members img {
 	 float: right;
     height: auto;
-    margin: 0px 0px 20px 20px;
-    width: 90px;
+    margin: 1% 1% 4% 4%;
+    width: 160px;
+	height:auto;
 	border:1px solid #B1AB99;
+	padding:1%;
+	box-shadow:1px 1px 2px #666;
 	}
 	 
 	 
@@ -412,7 +440,7 @@ form#webform-client-form-8 div input, form#webform-client-form-8 div select, for
 		width:94%;
 		border-radius:9px;
 		background:#f8eba5 url(../../../../default/files/40_white_from_top.png) repeat-x;
-		padding: 4%;
+		padding: 2% 4%;
     width: 92%;
 		border:1px solid #777;
 		box-shadow:1px 1px 2px #888;
@@ -423,14 +451,15 @@ form#webform-client-form-8 div input, form#webform-client-form-8 div select, for
 	}
 	
 	div#block-block-9 h2 {
-	font-size:1.1em;
+	font-size:1em;
 	color:#333;
 	margin-bottom:4px;
 	}
 	
 		div#block-block-9 p {
-	font-size:.8em;
+	font-size:.75em;
 	margin-bottom:0px;
+	line-height:125%;
 	}
 	
 	div#block-block-9 div.want-more-contact {
@@ -1304,32 +1333,49 @@ div.view.view-home-page-slideshow {
 	}
 	
 		
-		/* MEET THE TEAM */
+	/* MEET THE TEAM */
 	
-	div.team-member  {
-		border-bottom:1px solid #ccc;
-		padding:10px 0px 0px 0px;
-		min-height:270px;
+	div.view-id-team_members  {
+	
+		
 	}
 	
-	div.team-member h3  {
-	background: none repeat scroll 0 0 #B1AB99;
-    color: white;
-  
-    font-size: 1em;
-    margin: 0 0 6px;
-    padding: 2px 0 2px 6px;
-    width: 62%;
+		div.view-id-team_members h2  {
+	
+		margin:0px;
 	}
 	
-	div.team-member img {
+	div.view-id-team_members h3 {
+		margin:0px 0px 12px 0px;
+	
+	}
+	div.view-id-team_members div.views-row {
+	min-height:300px;
+	padding:2% 2% 4% 3%;
+	margin-top:12px;
+	
+	}
+	
+	div.view-id-team_members div.views-row-odd {
+	background:#f2f2f2;
+	
+	}
+	
+	div.view-id-team_members div.views-row-first {
+	margin:0px;
+	
+	}
+	
+div.view-id-team_members img {
 	 float: right;
     height: auto;
-    margin: 0px 0px 20px 20px;
-    width: 125px;
+    margin: 1% 1% 4% 4%;
+    width: 200px;
+	height:auto;
 	border:1px solid #B1AB99;
+	padding:1%;
+	box-shadow:1px 1px 2px #666;
 	}
-		
 		
 			/* HOME SLIDESHOW STATIC  */
 div#block-views-marquee-static-block-block {
@@ -1990,11 +2036,14 @@ select#mm0.mnav {
 		height:auto;
 		float:left;
 		margin-right:2%;
+		margin-bottom:12px;
+		
 	}
 	
 	div#block-block-9 h2 {
 	font-size:1.1em;
 	color:#333;
+	margin-bottom:2px;
 	}
 	
 		div#block-block-9 p {
@@ -2036,7 +2085,7 @@ select#mm0.mnav {
 	div#block-block-9 div.want-more-contact  a {
 	color:white;
 	display:block;
-	    padding:2% 10%;
+	    padding:2% 12%;
 		    border-radius: 9px;
 	}
 	
@@ -2464,7 +2513,7 @@ margin:0% 0% 5% 0%;
 	
 	.front p {
 	font-size: 0.85em;
-    line-height: 1.4em;
+    line-height: 1.5em;
 	}
 	
 	div.container {
@@ -2575,6 +2624,7 @@ font-size:1em;
 	div#block-block-9 h2 {
 	font-size:1.1em;
 	color:#333;
+	margin-bottom:2px;
 	}
 	
 		div#block-block-9 p {
@@ -3128,25 +3178,46 @@ input.form-text, textarea.form-textarea, select.form-select { border: 1px solid 
 	
 	/* MEET THE TEAM */
 	
-	div.team-member  {
-		min-height:270px;
-		border-bottom:1px solid #ccc;
-		padding:10px 0px 0px 0px;
+	div.view-id-team_members  {
+	
+		
 	}
 	
-	div.team-member h3  {
-	background:#B1AB99;
-	color:white;
-    margin: 0px 0px 8px 175px;
-    padding: 3px 0 3px 10px;
+		div.view-id-team_members h2  {
+	
+		margin:0px;
 	}
 	
-	div.team-member img {
-	 float: left;
+	div.view-id-team_members h3 {
+		margin:0px 0px 12px 0px;
+	
+	}
+	div.view-id-team_members div.views-row {
+	min-height:300px;
+	padding:2% 2% 4% 3%;
+	margin-top:12px;
+	
+	}
+	
+	div.view-id-team_members div.views-row-odd {
+	background:#f2f2f2;
+	
+	}
+	
+	div.view-id-team_members div.views-row-first {
+	margin:0px;
+	
+	}
+	
+div.view-id-team_members img {
+	 float: right;
     height: auto;
-    margin: 0px 30px 30px 0;
-    width: 160px;
+    margin: 1% 1% 4% 4%;
+    width: 225px;
+	height:auto;
 	border:1px solid #B1AB99;
+	padding:1%;
+	box-shadow:1px 1px 2px #666;
 	}
 /* NEWS */
 
@@ -3227,11 +3298,11 @@ margin:2% 2% 3% 0%;
 }
 
 div.one_third div#block-block-6, div.one_third div#block-block-7, div.one_third div#block-block-11, div#block-views-news-categories-block-3 { /* HOME TOUTS */
-	border-radius:0 8px 0 0;
-	border-top:1px solid #ccc;
-	border-right:1px solid #ccc;
-	padding:3% 0% 0%;
-	height:180px;
+	border-radius: 0 8px 0 0;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    height: 180px;
+    padding: 3% 3% 0;
 	
 }
 
@@ -3252,7 +3323,7 @@ div.one_third div#block-block-6 h2, div.one_third div#block-block-7 h2, div.one_
 	font-size:1.3em;}
 	
 	div.one_third div#block-block-6 p, div.one_third div#block-block-7 p { /* HOME TOUTS */
-	font-size:1em;
+	font-size:.9em;
 
 }
 
